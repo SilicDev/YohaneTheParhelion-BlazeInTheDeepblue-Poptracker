@@ -19,7 +19,10 @@
 				"sections": [
 					{
 						"name": "Entrance",
-						"access_rules": ["Kanan,SeaDeity'sCharm","Riko,SeaDeity'sCharm"],
+						"access_rules": [
+							"Kanan,SeaDeity'sCharm",
+							"Riko,SeaDeity'sCharm"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}
@@ -36,7 +39,14 @@
 				"sections": [
 					{
 						"name": "Entrance",
-						"access_rules": ["Dia,Kanan,GlovesofMight","You,Kanan,GlovesofMight","Kanan,FallenAngel'sSoarshoes,GlovesofMight","Dia,Mari,LostMonstie,GlovesofMight","You,Mari,LostMonstie,GlovesofMight","Mari,LostMonstie,FallenAngel'sSoarshoes,GlovesofMight"],
+						"access_rules": [
+							"Dia,Kanan,GlovesofMight",
+							"You,Kanan,GlovesofMight",
+							"Kanan,FallenAngel'sSoarshoes,GlovesofMight",
+							"Dia,Mari,LostMonstie,GlovesofMight",
+							"You,Mari,LostMonstie,GlovesofMight",
+							"Mari,LostMonstie,FallenAngel'sSoarshoes,GlovesofMight"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}
@@ -53,7 +63,16 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["@Shipwreck/Grotto Entrance/Entrance,You","@Shipwreck/Grotto Entrance/Entrance,Riko,Kanan","@Shipwreck/Grotto Entrance/Entrance,Riko,FallenAngel'sSoarshoes","@Shipwreck/Grotto Entrance/Entrance,Riko,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,You,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,Riko,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,You,FallenAngel'sSoarshoes","@Shipwreck/Coral Hill Entrance/Entrance,Riko,FallenAngel'sSoarshoes"],
+                        "access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,You",
+							"@Shipwreck/Grotto Entrance/Entrance,Riko,Kanan",
+							"@Shipwreck/Grotto Entrance/Entrance,Riko,FallenAngel'sSoarshoes",
+							"@Shipwreck/Grotto Entrance/Entrance,Riko,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,You,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,Riko,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,You,FallenAngel'sSoarshoes",
+							"@Shipwreck/Coral Hill Entrance/Entrance,Riko,FallenAngel'sSoarshoes"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -78,7 +97,11 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["@Shipwreck/Grotto Entrance/Entrance,FallenAngel'sSoarshoes","@Shipwreck/Grotto Entrance/Entrance,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,GlovesofMight"],
+                        "access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,FallenAngel'sSoarshoes",
+							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -103,7 +126,15 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["@Shipwreck/Grotto Entrance/Entrance,You,Kanan,Chika","@Shipwreck/Grotto Entrance/Entrance,You,Kanan,FallenAngel'sSoarshoes","@Shipwreck/Grotto Entrance/Entrance,You,Kanan,GlovesofMight","@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika","@Shipwreck/Grotto Entrance/Entrance,You,Riko,FallenAngel'sSoarshoes","@Shipwreck/Grotto Entrance/Entrance,You,Riko,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,You"],
+                        "access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,Chika",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,FallenAngel'sSoarshoes",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,GlovesofMight",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,FallenAngel'sSoarshoes",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,You"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -128,7 +159,12 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["@Shipwreck/Grotto Entrance/Entrance,Kanan,Chika","@Shipwreck/Grotto Entrance/Entrance,You,Riko","@Shipwreck/Coral Hill Entrance/Entrance,Chika","@Shipwreck/Coral Hill Entrance/Entrance,You"],
+                        "access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,Kanan,Chika",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko",
+							"@Shipwreck/Coral Hill Entrance/Entrance,Chika",
+							"@Shipwreck/Coral Hill Entrance/Entrance,You"
+						,
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -153,7 +189,14 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["@Shipwreck/Grotto Entrance/Entrance,Kanan,Chika,Mari,LostMonstie","@Shipwreck/Grotto Entrance/Entrance,Kanan,You,GlovesofMight","@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika,Mari,LostMonstie","@Shipwreck/Grotto Entrance/Entrance,You,Riko,Kanan,GlovesofMight","@Shipwreck/Coral Hill Entrance/Entrance,Chika,Mari,LostMonstie","@Shipwreck/Coral Hill Entrance/Entrance,Kanan,You,GlovesofMight"],
+                        "access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,Kanan,Chika,Mari,LostMonstie",
+							"@Shipwreck/Grotto Entrance/Entrance,Kanan,You,GlovesofMight",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika,Mari,LostMonstie",
+							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,Kanan,GlovesofMight",
+							"@Shipwreck/Coral Hill Entrance/Entrance,Chika,Mari,LostMonstie",
+							"@Shipwreck/Coral Hill Entrance/Entrance,Kanan,You,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -177,7 +220,10 @@
 				"sections": [
 					{
 						"name": "Boss",
-						"access_rules": ["@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]","@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"],
+						"access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]",
+							"@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}
@@ -201,7 +247,10 @@
 				"sections": [
 					{
 						"name": "Hanamaru",
-						"access_rules": ["@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]","@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"],
+						"access_rules": [
+							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]",
+							"@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}

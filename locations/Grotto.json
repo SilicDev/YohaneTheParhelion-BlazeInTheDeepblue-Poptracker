@@ -169,7 +169,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["SeaDeity'sCharm,FallenAngel'sSoarshoes","SeaDeity'sCharm,GlovesofMight"],
+                        "access_rules": [
+							"SeaDeity'sCharm,FallenAngel'sSoarshoes",
+							"SeaDeity'sCharm,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -194,7 +197,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["SeaDeity'sCharm,FallenAngel'sSoarshoes","SeaDeity'sCharm,GlovesofMight"],
+                        "access_rules": [
+							"SeaDeity'sCharm,FallenAngel'sSoarshoes",
+							"SeaDeity'sCharm,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }

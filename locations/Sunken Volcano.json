@@ -69,7 +69,11 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["Kanan","You,FallenAngel'sSoarshoes","FallenAngel'sSoarshoes,GlovesofMight"],
+                        "access_rules": [
+							"Kanan",
+							"You,FallenAngel'sSoarshoes",
+							"FallenAngel'sSoarshoes,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -119,7 +123,11 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["Kanan,Riko,Dia","Kanan,Riko,Hanamaru,Laptop","Kanan,Riko,Mari,LostMonstie"],
+                        "access_rules": [
+							"Kanan,Riko,Dia",
+							"Kanan,Riko,Hanamaru,Laptop",
+							"Kanan,Riko,Mari,LostMonstie"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -144,7 +152,10 @@
                 "sections": [
                     {
                         "name": "Boss",
-                        "access_rules": ["Kanan,You","Kanan,FallenAngel'sSoarshoes"],
+                        "access_rules": [
+							"Kanan,You",
+							"Kanan,FallenAngel'sSoarshoes"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -169,7 +180,10 @@
                 "sections": [
                     {
                         "name": "Riko",
-                        "access_rules": ["Kanan,You","Kanan,FallenAngel'sSoarshoes"],
+                        "access_rules": [
+							"Kanan,You",
+							"Kanan,FallenAngel'sSoarshoes"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }

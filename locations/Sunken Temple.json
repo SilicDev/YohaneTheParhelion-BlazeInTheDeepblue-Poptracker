@@ -50,7 +50,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["FallenAngel'sSoarshoes","GlovesofMight"],
+                        "access_rules": [
+							"FallenAngel'sSoarshoes",
+							"GlovesofMight"
+							],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -100,7 +103,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["Chika,You","Chika,FallenAngel'sSoarshoes"],
+                        "access_rules": [
+							"Chika,You",
+							"Chika,FallenAngel'sSoarshoes"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }

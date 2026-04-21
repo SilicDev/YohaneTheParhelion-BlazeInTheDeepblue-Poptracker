@@ -19,7 +19,11 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["FallenAngel'sSoarshoes","Kanan","You"],
+                        "access_rules": [
+							"FallenAngel'sSoarshoes",
+							"Kanan",
+							"You"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -119,7 +123,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "access_rules": ["You,FallenAngel'sSoarshoes","You,GlovesofMight"],
+                        "access_rules": [
+							"You,FallenAngel'sSoarshoes",
+							"You,GlovesofMight"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
