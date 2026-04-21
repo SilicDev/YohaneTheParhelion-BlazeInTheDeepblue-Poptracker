@@ -413,6 +413,15 @@ function UpdateHints(locationID, status) -->
     end
 end
 
+function onBounce(json)
+    local data = json["data"]
+    if data then
+        if data["type"] == "MapUpdate" then
+            updateMap(data["mapId"])
+        end
+    end
+end
+
 function updateMap(map_id)
     local tabs = TAB_MAPPING[map_id]
     if tabs then
