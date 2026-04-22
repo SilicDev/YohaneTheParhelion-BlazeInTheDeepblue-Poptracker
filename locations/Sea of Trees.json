@@ -242,7 +242,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "You",
                         "access_rules": [
 							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Chika,GlovesofMight",
 							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Kanan,GlovesofMight",

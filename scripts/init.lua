@@ -1,3 +1,4 @@
+DEBUG = {"errors"}
 
 local variant = Tracker.ActiveVariantUID
 
