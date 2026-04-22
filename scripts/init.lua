@@ -17,6 +17,11 @@ require("scripts/layouts_import")
 -- Locations
 require("scripts/locations_import")
 
+-- Logic
+require("scripts/logic/logic_helper")
+require("scripts/logic/base_logic")
+require("scripts/logic/graph_logic/logic_main")
+
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.26.0" then
     require("scripts/autotracking")
