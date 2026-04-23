@@ -5,58 +5,11 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "@Shipwreck/Shipwreck Boss/Boss,[Hanamaru]"
+			"@Shipwreck/Shipwreck Boss/Boss,[You]"
         ],
         "children": [
-			{
-				"name": "Grotto Entrance",
-				"chest_unopened_img": "/images/items/doorclose.png",
-                "chest_opened_img": "/images/items/dooropen.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Entrance",
-						"access_rules": [
-							"[You],[Ruby],SeaDeity'sCharm,GlovesofMight",
-							"[Hanamaru],[Ruby],SeaDeity'sCharm,GlovesofMight"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				]
-			},
-			{	
-				"name": "Coral Hill Entrance",
-				"chest_unopened_img": "/images/items/doorclose.png",
-                "chest_opened_img": "/images/items/dooropen.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Entrance",
-						"access_rules": [
-							"Dia,Kanan,GlovesofMight,[Ruby],[Hanamaru]",
-                            "Dia,Kanan,GlovesofMight,[Ruby],[You]",
-							"You,Kanan,GlovesofMight,[Ruby]",
-							"Kanan,FallenAngel'sSoarshoes,GlovesofMight,[Ruby],[Hanamaru]",
-                            "Kanan,FallenAngel'sSoarshoes,GlovesofMight,[Ruby],[You]",
-							"Dia,Mari,LostMonstie,GlovesofMight,[Ruby],[Hanamaru]",
-                            "Dia,Mari,LostMonstie,GlovesofMight,[Ruby],[You]",
-							"You,Mari,LostMonstie,GlovesofMight,[Ruby]",
-							"Mari,LostMonstie,FallenAngel'sSoarshoes,GlovesofMight,[Ruby],[Hanamaru]",
-                            "Mari,LostMonstie,FallenAngel'sSoarshoes,GlovesofMight,[Ruby],[You]"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				]
-			},
-			{
+						{
                 "name": "Giant Poison Enemy Crab Room",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -68,12 +21,9 @@
                     {
                         "name": "Chest",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,[Hanamaru]",
-							"@Sea of Trees/Grotto Entrance/Entrance,[You],[FallenAngel'sSoarshoes]",
-							"@Sea of Trees/Grotto Entrance/Entrance,[You],[GlovesofMight]",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,[Hanamaru]",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,[You],[FallenAngel'sSoarshoes]",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,[You],[GlovesofMight]"
+							"[Hanamaru]",
+							"[You],[FallenAngel'sSoarshoes]",
+							"[You],[GlovesofMight]"
 						],
                         "visibility_rules": [],
                         "item_count": 1
@@ -100,8 +50,7 @@
                     {
                         "name": "Chest",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,Dia,Riko",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Dia,Riko"
+							"Dia,Riko"
 						],
                         "visibility_rules": [],
                         "item_count": 1
@@ -128,12 +77,9 @@
                     {
                         "name": "Chest",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Grotto Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight"
+							"Riko,Chika,GlovesofMight",
+							"Riko,Kanan,GlovesofMight",
+                            "Riko,Mari,LostMonstie,GlovesofMight"
 						],
                         "visibility_rules": [],
                         "item_count": 1
@@ -160,12 +106,9 @@
                     {
                         "name": "Chest",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Grotto Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight"
+							"Riko,Chika,GlovesofMight",
+							"Riko,Kanan,GlovesofMight",
+                            "Riko,Mari,LostMonstie,GlovesofMight"
 						],
                         "visibility_rules": [],
                         "item_count": 1
@@ -192,12 +135,9 @@
                     {
                         "name": "Chest",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,You,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Grotto Entrance/Entrance,You,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Grotto Entrance/Entrance,You,Riko,Mari,LostMonstie,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,You,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,You,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Coral Hill Entrance/Entrance,You,Riko,Mari,LostMonstie,GlovesofMight"
+							"You,Riko,Chika,GlovesofMight",
+							"You,Riko,Kanan,GlovesofMight",
+                            "You,Riko,Mari,LostMonstie,GlovesofMight"
 						],
                         "visibility_rules": [],
                         "item_count": 1
@@ -224,12 +164,9 @@
                     {
                         "name": "Boss",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Grotto Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight"
+							"Riko,Chika,GlovesofMight",
+							"Riko,Kanan,GlovesofMight",
+                            "Riko,Mari,LostMonstie,GlovesofMight"
 						],
 						"visibility_rules": [],
                         "item_count": 1
@@ -256,12 +193,9 @@
                     {
                         "name": "You",
                         "access_rules": [
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Grotto Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Grotto Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Chika,GlovesofMight",
-							"@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Kanan,GlovesofMight",
-                            "@Sea of Trees/Coral Hill Entrance/Entrance,Riko,Mari,LostMonstie,GlovesofMight"
+							"Riko,Chika,GlovesofMight",
+							"Riko,Kanan,GlovesofMight",
+                            "Riko,Mari,LostMonstie,GlovesofMight"
 						],
                         "visibility_rules": [],
                         "item_count": 1
