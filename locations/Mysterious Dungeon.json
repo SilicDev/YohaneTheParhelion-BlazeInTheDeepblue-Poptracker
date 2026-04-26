@@ -52,7 +52,7 @@
 					{
                         "name": "Infernal Altar Boss (Refight)",
                         "ref": "Aqours Memoria/Infernal Altar Boss (Refight)/Boss"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -549,7 +549,7 @@
                         "size": 50
                     }
                 ]
-            },
+            }
         ]
     }
 ]
