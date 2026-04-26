@@ -2,6 +2,7 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/tab_mapping")
+require("scripts/autotracking/data_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -271,32 +272,48 @@ function onItem(index, item_id, item_name, player_number)
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
-        local item_obj = Tracker:FindObjectForCode(item_code)
-        if item_obj then
-            if item_obj.Type == "toggle" then
-                -- print("toggle")
-                item_obj.Active = true
-            elseif item_obj.Type == "progressive" then
-                -- print("progressive")
+        addItem(item_code)
+        local progressive = PROGRESSIVE_TO_CHARACTER_MAP[item_code]
+        if progressive then
+            local item_obj = Tracker:FindObjectForCode(item_code)
+            if item_obj then
                 if item_obj.Active == true then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
-                    item_obj.Active = true
+                    addItem(progressive[1])
                 end
-            elseif item_obj.Type == "consumable" then
-                -- print("consumable")
-                item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
-            elseif item_obj.Type == "progressive_toggle" then
-                -- print("progressive_toggle")
-                if item_obj.Active then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
-                    item_obj.Active = true
+                if item_obj.CurrentStage >= 1 then
+                    addItem(progressive[2])
                 end
             end
-        else
-            print(string.format("onItem: could not find object for code %s", item_code[1]))
         end
+    end
+end
+
+function addItem(item_code)
+    local item_obj = Tracker:FindObjectForCode(item_code)
+    if item_obj then
+        if item_obj.Type == "toggle" then
+            -- print("toggle")
+            item_obj.Active = true
+        elseif item_obj.Type == "progressive" then
+            -- print("progressive")
+            if item_obj.Active == true then
+                item_obj.CurrentStage = item_obj.CurrentStage + 1
+            else
+                item_obj.Active = true
+            end
+        elseif item_obj.Type == "consumable" then
+            -- print("consumable")
+            item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
+        elseif item_obj.Type == "progressive_toggle" then
+            -- print("progressive_toggle")
+            if item_obj.Active then
+                item_obj.CurrentStage = item_obj.CurrentStage + 1
+            else
+                item_obj.Active = true
+            end
+        end
+    else
+        print(string.format("onItem: could not find object for code %s", item_code[1]))
     end
 end
 

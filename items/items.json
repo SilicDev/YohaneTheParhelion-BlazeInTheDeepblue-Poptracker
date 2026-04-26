@@ -1976,6 +1976,70 @@
         "codes": "Katy'sMask"
     },
     {
+        "name": "Progressive Chika",
+        "type": "progressive",
+        "img": "images/items/Chika.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveChika"
+    },
+    {
+        "name": "Progressive Riko",
+        "type": "progressive",
+        "img": "images/items/Riko.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveRiko"
+    },
+    {
+        "name": "Progressive Kanan",
+        "type": "progressive",
+        "img": "images/items/Kanan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveKanan"
+    },
+    {
+        "name": "Progressive Hanamaru",
+        "type": "progressive",
+        "img": "images/items/Hanamaru.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveHanamaru"
+    },
+    {
+        "name": "Progressive Ruby",
+        "type": "progressive",
+        "img": "images/items/Ruby.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveRuby"
+    },
+    {
+        "name": "Progressive You",
+        "type": "progressive",
+        "img": "images/items/You.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveYou"
+    },
+    {
+        "name": "Progressive Dia",
+        "type": "progressive",
+        "img": "images/items/Dia.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveDia"
+    },
+    {
+        "name": "Progressive Mari",
+        "type": "progressive",
+        "img": "images/items/Mari.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ProgressiveMari"
+    },
+    {
         "name": "update",
         "type": "toggle",
         "img": "images/items/update.png",
