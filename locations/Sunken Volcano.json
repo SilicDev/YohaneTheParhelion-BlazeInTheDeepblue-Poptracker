@@ -9,194 +9,1649 @@
         ],
         "children": [
             {
-                "name": "Next To First Save Room",
+                "name": "Left Entrance Region",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Ruins/Post-Boss 2 Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": ["Kanan,GlovesofMight"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Soarshoes Room Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 100,
+                                "y": 93,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Volcano",
-                        "x": 447,
-                        "y": 241,
-                        "size": 8
+                        "name": "Bait Entrance Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 152,
+                                "y": 93,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Hotspring Room",
+                "name": "Soarshoes Ledge Region",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Volcano/Left Entrance Region,You,FallenAngel'sSoarshoes",
+                    "@Sunken Volcano/Left Entrance Region,You,GlovesofMight",
+                    "@Sunken Volcano/Left Entrance Region,FallenAngel'sSoarshoes,GlovesofMight",
+                    "@Sunken Volcano/Left Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": ["Kanan"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sunken Volcano",
-                        "x": 586,
-                        "y": 369,
-                        "size": 8
+                        "name": "Soarshoes Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 100,
+                                "y": 72,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Soarshoes Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Top Entrance Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Ruins/Post-Boss 3 Region",
+                    "@Sunken Volcano/Main Region,FallenAngel'sSoarshoes",
+                    "@Sunken Volcano/Main Region,GlovesofMight",
+                    "@Sunken Volcano/Boss Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Entrance",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Kanan",
-							"You,FallenAngel'sSoarshoes",
-                            "You,GlovesofMight",
-							"FallenAngel'sSoarshoes,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 565,
+                                "y": 224,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Volcano",
-                        "x": 100,
-                        "y": 72,
-                        "size": 8
+                        "name": "Fiery Balls Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 593,
+                                "y": 216,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fiery Balls Room Middle Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 593,
+                                "y": 233,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fiery Balls Room Lower Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 593,
+                                "y": 253,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fragile Platforms Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 513,
+                                "y": 245,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next To First Save Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["GlovesofMight"],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 447,
+                                "y": 241,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to First Save Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 461,
+                                "y": 241,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Soarshoes Obligatory Issue Room Lower Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 665,
+                                "y": 252,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Soarshoes Obligatory Issue Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Main Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Volcano/Top Entrance Region",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region",
+                    "@Sunken Volcano/Boss Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": ["Kanan,FallenAngel'sSoarshoes"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Next to First Save Room Lower Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 447,
+                                "y": 293,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Volcano",
-                        "x": 670,
-                        "y": 269,
-                        "size": 8
+                        "name": "Fiery Jellyfish Room Upper Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 488,
+                                "y": 286,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fiery Jellyfish Room Lower Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 495,
+                                "y": 318,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumpy Hallway",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 523,
+                                "y": 293,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lava Pool Room Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 515,
+                                "y": 315,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lava Pool Room Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 565,
+                                "y": 315,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hotspring Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 586,
+                                "y": 369,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hotspring Room Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 600,
+                                "y": 369,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Enemy Crab Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 726,
+                                "y": 368,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Riko Testing Ground",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "@Sunken Volcano/Boss Region",
+                            "Riko,FallenAngel'sSoarshoes",
+                            "Riko,GlovesofMight"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 803,
+                                "y": 337,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Spikey Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 481,
+                                "y": 343,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "T Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 453,
+                                "y": 315,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow Spawner Thing Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 341,
+                                "y": 318,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lava Slide Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 313,
+                                "y": 315,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 348,
+                                "y": 290,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Tonosamas Parts Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Left Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Volcano/Main Region",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Mari",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Dia",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Hanamaru,Laptop",
+                    "@Sunken Volcano/Soarshoes Ledge Region,You,[enable_you_skips]"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Next to Second Save Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Kanan,[Hanamaru],Riko,Dia",
-							"Kanan,[You],Riko,Dia",
-							"Kanan,[Hanamaru],Riko,Mari,LostMonstie",
-                            "Kanan,[You],Riko,Mari,LostMonstie",
-                            "Kanan,Riko,Hanamaru,Laptop"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 321,
+                                "y": 212,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Volcano",
-                        "x": 145,
-                        "y": 261,
-                        "size": 8
+                        "name": "Next to Second Save Room Lower Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 321,
+                                "y": 243,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Soarshoes Optional Issue Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 313,
+                                "y": 193,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Axe Fish Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 166,
+                                "y": 268,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Axe Fish Right Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 251,
+                                "y": 268,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weird Fire Rotating Thing Room Upper Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 159,
+                                "y": 187,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weird Fire Rotating Thing Room Lower Middle Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 159,
+                                "y": 243,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weird Fire Rotating Thing Room Lower Right Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 181,
+                                "y": 243,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Third Save Room Upper Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 103,
+                                "y": 202,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Third Save Room Lower Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 103,
+                                "y": 215,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sole Deathclaw Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 26,
+                                "y": 190,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seahorse Altar Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 41,
+                                "y": 212,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Over Lava Room Upper Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 95,
+                                "y": 237,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Over Lava Room Upper Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 111,
+                                "y": 237,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Over Lava Room Lower Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 68,
+                                "y": 282,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poison Elevator Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 42,
+                                "y": 168,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wallcrabs Over Lava Room Upper Left Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 69,
+                                "y": 132,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wallcrabs Over Lava Room Lower Left Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 67,
+                                "y": 168,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wallcrabs Over Lava Room Upper Right Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "[Chika]",
+                            "[You]",
+                            "[FallenAngel'sSoarshoes]",
+                            "[GlovesofMight]"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 111,
+                                "y": 112,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poison Axe Fish Hallway Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 222,
+                                "y": 115,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poison Axe Fish Hallway Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 285,
+                                "y": 115,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Fire Balls Room Lower Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 236,
+                                "y": 193,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Fire Balls Room Lower Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 285,
+                                "y": 193,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Deathclaw Fire Balls Room Upper Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 285,
+                                "y": 136,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fire Rotating Thing Red Isopod Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 191,
+                                "y": 152,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sardine School Over Lava Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 51,
+                                "y": 79,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Sunken Volcano Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Boss Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Volcano/Top Entrance Region,FallenAngel'sSoarshoes",
+                    "@Sunken Volcano/Top Entrance Region,GlovesofMight,You",
+                    "@Sunken Volcano/Main Region,You,[enable_you_skips]"
                 ],
-                "sections": [
+                "children": [        
                     {
-                        "name": "Boss",
+                        "name": "Soarshoes Obligatory Issue Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Kanan,You",
-							"Kanan,FallenAngel'sSoarshoes"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["FallenAngel'sSoarshoes"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 670,
+                                "y": 269,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Volcano",
-                        "x": 715,
-                        "y": 328,
-                        "size": 8
+                        "name": "Soarshoes Obligatory Issue Room Upper Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 670,
+                                "y": 240,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Corner Tortoise Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 697,
+                                "y": 230,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Wallcrab Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 690,
+                                "y": 252,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PyroTortoise Slide Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 645,
+                                "y": 290,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Boss Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 663,
+                                "y": 327,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunken Volcano Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 715,
+                                "y": 328,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/RikoToken.png",
+                        "chest_opened_img": "/images/items/RikoTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Riko",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 768,
+                                "y": 340,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/RikoToken.png",
-                "chest_opened_img": "/images/items/RikoTokent.png",
+            {
+                "name": "Path to Tonosama's Parts Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Volcano/Top Entrance Region,[Hanamaru]",
+                    "@Sunken Volcano/Top Entrance Region,You,[enable_you_skips]"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Riko",
+                        "name": "Sole PyroTortoise Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Kanan,You",
-							"Kanan,FallenAngel'sSoarshoes"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 306,
+                                "y": 293,
+                                "size": 8
+                            }
+                        ]
                     }
+                ]
+            },
+            {
+                "name": "Tonosama's Parts Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Riko",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Riko",
+                    "@Sunken Volcano/Path to Tonosama's Parts Region,Riko"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "Sunken Volcano",
-                        "x": 768,
-                        "y": 340,
-                        "size": 8
+                        "name": "Tonosamas Parts Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "Kanan,Mari",
+                                    "Kanan,Dia",
+                                    "Kanan,Hanamaru,Laptop"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Volcano",
+                                "x": 145,
+                                "y": 261,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             }

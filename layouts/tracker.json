@@ -26,7 +26,7 @@
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "setting_grid"
+                                "key": "shared_settings_grid_vertical"
                             }
                         },
                         {
@@ -85,7 +85,7 @@
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "setting_grid"
+                                "key": "shared_settings_grid_horizontal"
                             }
                         },
                         {

@@ -280,7 +280,7 @@ function onItem(index, item_id, item_name, player_number)
                 if item_obj.Active == true then
                     addItem(progressive[1], nil)
                 end
-                if item_obj.CurrentStage >= 1 then
+                if item_obj.CurrentStage >= 2 then
                     addItem(progressive[2], nil)
                 end
             end

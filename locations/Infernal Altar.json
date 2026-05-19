@@ -9,83 +9,863 @@
         ],
         "children": [
             {
-                "name": "Purple Goo Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Entrance Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Temple/Main Region,[You]",
+                    "@Infernal Altar/Pre-First Save Region,GlovesofMight"
                 ],
-                "sections": [
+                "children": [        
                     {
-                        "name": "Chest",
+                        "name": "First Final Guard Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,FallenAngel'sSoarshoes",
-                            "You,GlovesofMight"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Infernal Altar",
-                        "x": 258,
-                        "y": 96,
-                        "size": 10
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 145,
+                                "y": 69,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Dark Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Pre-First Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Infernal Altar/Entrance Region,FallenAngel'sSoarshoes",
+                    "@Infernal Altar/Entrance Region,GlovesofMight",
+                    "@Infernal Altar/First Save Region,[You]",
+                    "@Infernal Altar/First Save Region,[Hanamaru]"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Purple Goo Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,FallenAngel'sSoarshoes",
-                            "You,GlovesofMight"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 165,
+                                "y": 96,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Infernal Altar",
-                        "x": 354,
-                        "y": 201,
-                        "size": 10
+                        "name": "Purple Goo Room Middle Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 198,
+                                "y": 96,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Infernal Altar Boss",
-                "chest_unopened_img": "/images/items/BossTokent.png",
-                "chest_opened_img": "/images/items/BossToken.png",
+            {
+                "name": "First Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Infernal Altar/Pre-First Save Region,FallenAngel'sSoarshoes,[You]",
+                    "@Infernal Altar/Pre-First Save Region,FallenAngel'sSoarshoes,[Hanamaru]",
+                    "@Infernal Altar/Pre-First Save Region,GlovesofMight,[You]",
+                    "@Infernal Altar/Pre-First Save Region,GlovesofMight,[Hanamaru]",
+                    "@Infernal Altar/Below First Save Region,GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Boss",
-                        "access_rules": ["Riko,Kanan,FallenAngel'sSoarshoes,GlovesofMight,[Hanamaru]"],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Purple Goo Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 230,
+                                "y": 96,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Purple Goo Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "You"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 258,
+                                "y": 96,
+                                "size": 8
+                            }
+                        ]
                     }
+                ]
+            },
+            {
+                "name": "Below First Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/First Save Region",
+                    "@Infernal Altar/Vertical Drop Region,GlovesofMight"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "Infernal Altar",
-                        "x": 600,
-                        "y": 376,
-                        "size": 10
+                        "name": "Isopod Trio Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 236,
+                                "y": 112,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Isopod Trio Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 236,
+                                "y": 129,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssclaw Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 257,
+                                "y": 129,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssclaw Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 327,
+                                "y": 129,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Vertical Drop Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Below First Save Region"
+                ],
+                "children": [
+                    {
+                        "name": "Vertical Drop",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 4",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 327,
+                                "y": 129,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dark Room Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Below First Save Region",
+                    "@Infernal Altar/Dark Room Chest Region,You,FallenAngel'sSoarshoes",
+                    "@Infernal Altar/Dark Room Chest Region,You,GlovesofMight",
+                    "@Infernal Altar/Rocks and Crystals Region,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Dark Room Upper Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 355,
+                                "y": 182,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dark Room Lower Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 221,
+                                "y": 199,
+                                "size": 8
+                            }
+                        ]
+                    },
+                     {
+                        "name": "Dark Room Lower Center Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 267,
+                                "y": 199,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dark Room Lower Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 4",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 5",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 313,
+                                "y": 199,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Final Guard Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 313,
+                                "y": 218,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Final Guard Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 328,
+                                "y": 227,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dark Room Chest Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Dark Room Region,You,FallenAngel'sSoarshoes",
+                    "@Infernal Altar/Dark Room Region,You,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Dark Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 354,
+                                "y": 201,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rocks and Crystals Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Dark Room Region,GlovesofMight",
+                    "@Infernal Altar/Right Poison Pool Region,Riko,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Giant Crystals Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 537,
+                                "y": 218,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Crystals Room Middle Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 558,
+                                "y": 239,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Crystals Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 544,
+                                "y": 264,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Right Poison Pool Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Rocks and Crystals Region,Riko,GlovesofMight",
+                    "@Infernal Altar/Left Poison Pool Region,Kanan,Tonosama'sParts,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Poison Pool Room Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 516,
+                                "y": 289,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Left Poison Pool Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Right Poison Pool Region,[You],[GlovesofMight]",
+                    "@Infernal Altar/Right Poison Pool Region,[You],[PostalGuildBag]",
+                    "@Infernal Altar/Right Poison Pool Region,[Ruby]",
+                    "@Infernal Altar/Right Poison Pool Region,[Mari],[LostMonstie]"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Pre-Random Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Left Poison Pool Region,Kanan"
+                ],
+                "children": [
+                    {
+                        "name": "Pre-Random Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 427,
+                                "y": 314,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 443,
+                                "y": 311,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Boss Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Infernal Altar/Pre-Random Region"
+                ],
+                "children": [
+                    {
+                        "name": "Post-Random Room Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 551,
+                                "y": 379,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Infernal Altar Boss",
+                        "chest_unopened_img": "/images/items/BossTokent.png",
+                        "chest_opened_img": "/images/items/BossToken.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "access_rules": ["Riko,Kanan,FallenAngel'sSoarshoes,GlovesofMight,[Hanamaru]"],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Infernal Altar",
+                                "x": 600,
+                                "y": 376,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             }

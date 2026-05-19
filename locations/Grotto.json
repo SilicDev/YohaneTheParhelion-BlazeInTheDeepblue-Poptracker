@@ -1,267 +1,1216 @@
 [
     {
         "name": "Grotto",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "children": [
             {
-                "name": "Next To First Save Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Main Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sunken Temple/Post-Boss Region",
+                    "@Grotto/Top Corridor Region,Chika",
+                    "@Grotto/Top Corridor Region,Ruby,CutePochette"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 95,
-                        "y": 139,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "First Waterfall Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 137,
-                        "y": 164,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "First Lake Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": ["SeaDeity'sCharm"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 264,
-                        "y": 189,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Second Lake Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 402,
-                        "y": 207,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Spellbook Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": ["Riko"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 179,
-                        "y": 264,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Long Waterfall Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": ["SeaDeity'sCharm"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 244,
-                        "y": 293,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Isolated Climb Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
+                        "name": "Shrimpy Entrance",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"SeaDeity'sCharm,FallenAngel'sSoarshoes",
-							"SeaDeity'sCharm,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 78,
+                                "y": 110,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Grotto",
-                        "x": 509,
-                        "y": 47,
-                        "size": 8
+                        "name": "Next To First Save Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 95,
+                                "y": 139,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Under First Save Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 46,
+                                "y": 162,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Waterfall Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 137,
+                                "y": 164,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pointless Alcove",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 180,
+                                "y": 184,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Lake Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "SeaDeity'sCharm"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 264,
+                                "y": 189,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Lake Room Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "SeaDeity'sCharm"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 280,
+                                "y": 176,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Second Save Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 327,
+                                "y": 186,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Lake Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 402,
+                                "y": 207,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Waterfall Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 362,
+                                "y": 264,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Waterfall Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 390,
+                                "y": 284,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Flame Spellbook Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 138,
+                                "y": 259,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spellbook Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "Riko"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 179,
+                                "y": 264,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Alien Waterfall Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Upper Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Lower Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 144,
+                                "y": 314,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bottom Waterfall Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 130,
+                                "y": 346,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "J Watertrap Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 214,
+                                "y": 326,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Long Waterfall Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "SeaDeity'sCharm"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 244,
+                                "y": 293,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Above Second Lake Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 347,
+                                "y": 187,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Above Second Lake Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 404,
+                                "y": 187,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 432,
+                                "y": 184,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Small Cave Climb Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Top Corridor Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Main Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Post-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"SeaDeity'sCharm,FallenAngel'sSoarshoes",
-							"SeaDeity'sCharm,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 284,
+                                "y": 134,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Grotto",
-                        "x": 635,
-                        "y": 79,
-                        "size": 8
+                        "name": "Powerless Elevator Room Upper Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 292,
+                                "y": 53,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Powerless Elevator Room Middle Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 292,
+                                "y": 69,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Powerless Elevator Room Lower Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 277,
+                                "y": 85,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Enemy Crab Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 4",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 5",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 6",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 7",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 8",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 402,
+                                "y": 110,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Soarshoes Issue Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "Dia",
+                            "FallenAngel'sSoarshoes",
+                            "GlovesofMight"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 431,
+                                "y": 66,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Soarshoes Issue Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 424,
+                                "y": 88,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Grotto Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Top Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Top Corridor Region,Dia",
+                    "@Grotto/Top Corridor Region,FallenAngel'sSoarshoes"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Boss",
-                        "access_rules": ["SeaDeity'sCharm"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Eggcelent Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 312,
+                                "y": 25,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Grotto",
-                        "x": 652,
-                        "y": 160,
-                        "size": 8
+                        "name": "Very Large Room Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "SeaDeity'sCharm"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 372,
+                                "y": 88,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Very Large Room Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "SeaDeity'sCharm"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 390,
+                                "y": 88,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/DiaToken.png",
-                "chest_opened_img": "/images/items/DiaTokent.png",
+            {
+                "name": "Boss Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Main Region,SeaDeity'sCharm"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Dia",
-                        "access_rules": ["SeaDeity'sCharm"],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Second Lake Room Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 386,
+                                "y": 238,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Lake Room Pots",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 402,
+                                "y": 238,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Post Random Room 2",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 466,
+                                "y": 184,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fungi Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 510,
+                                "y": 138,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Fungi Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 564,
+                                "y": 112,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Large Fungi Room Upper Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 588,
+                                "y": 47,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Large Fungi Room Lower Rocks",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 564,
+                                "y": 87,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Isolated Climb Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "FallenAngel'sSoarshoes",
+                                    "GlovesofMight"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 509,
+                                "y": 47,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Cave Climb Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "FallenAngel'sSoarshoes",
+                                    "GlovesofMight"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 635,
+                                "y": 79,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fungi Corner Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 641,
+                                "y": 109,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Boss Room",
+                        "chest_unopened_img": "/images/items/Pot2.png",
+                        "chest_opened_img": "/images/items/Pot2g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 614,
+                                "y": 134,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grotto Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 652,
+                                "y": 160,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/DiaToken.png",
+                        "chest_opened_img": "/images/items/DiaTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dia",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Grotto",
+                                "x": 698,
+                                "y": 160,
+                                "size": 8
+                            }
+                        ]
                     }
+                ]
+            },
+            {
+                "name": "Coral Hill Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Grotto/Top Region,You",
+                    "@Grotto/Top Region,GlovesofMight"
                 ],
-                "map_locations": [
-                    {
-                        "map": "Grotto",
-                        "x": 698,
-                        "y": 160,
-                        "size": 8
-                    }
+                "children": [
+                    {}
                 ]
             }
         ]

@@ -10,8 +10,8 @@
         "children": [
             {
                 "name": "Aqours Memoria",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_unopened_img": "/images/items/Pot1.png",
+                "chest_opened_img": "/images/items/Pot1g.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -73,32 +73,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soarshoesnt Chest Room - Chest",
-                        "ref": "Coral Hill/Soarshoesnt Chest Room/Chest"
+                        "name": "Soarshoesnt Chest Room",
+                        "ref": "Coral Hill/Soarshoesnt Chest Region/Soarshoesnt Chest Room/Chest"
                     },
                     {
-                        "name": "Annoying Teleporting Fish Room - Chest",
-                        "ref": "Coral Hill/Annoying Teleporting Fish Room/Chest"
+                        "name": "Annoying Teleporting Fish Room",
+                        "ref": "Coral Hill/Teleporting Fish Chest Region/Annoying Teleporting Fish Room Chest/Chest"
                     },
                     {
-                        "name": "Wallcrab Chest Room - Chest",
-                        "ref": "Coral Hill/Wallcrab Chest Room/Chest"
+                        "name": "Wall Crab Chest Room",
+                        "ref": "Coral Hill/Wall Crab Chest Region/Wallcrab Chest Room/Chest"
                     },
                     {
-                        "name": "Dumb Block Room - Chest",
-                        "ref": "Coral Hill/Dumb Block Room/Chest"
+                        "name": "Dumb Block Room",
+                        "ref": "Coral Hill/Bottom of Climb Region/Dumb Block Room/Chest"
                     },
                     {
-                        "name": "Lost Monstie Room - Chest",
-                        "ref": "Coral Hill/Lost Monstie Room/Chest"
+                        "name": "Lost Monstie Room",
+                        "ref": "Coral Hill/Bottom Region/Lost Monstie Room/Chest"
                     },
 					{
                         "name": "Coral Hill Boss",
-                        "ref": "Coral Hill/Coral Hill Boss/Boss"
+                        "ref": "Coral Hill/Boss Region/Coral Hill Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Coral Hill/Rescued Ally/Ruby"
+                        "ref": "Coral Hill/Boss Region/Rescued Ally/Ruby"
                     }
 					
                 ],
@@ -121,32 +121,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "One Way Slide Room - Chest",
-                        "ref": "Crystalline Grotto/One Way Slide Room/Chest"
+                        "name": "One Way Slide Room",
+                        "ref": "Crystalline Grotto/Entrance Region/One Way Slide Room/Chest"
                     },
                     {
-                        "name": "Giant Sliding Crystals Room - Chest",
-                        "ref": "Crystalline Grotto/Giant Sliding Crystals Room/Chest"
+                        "name": "Giant Sliding Crystals Room",
+                        "ref": "Crystalline Grotto/Top Region/Giant Sliding Crystals Room Chest/Chest"
                     },
                     {
-                        "name": "Isolated Chest Room - Chest",
-                        "ref": "Crystalline Grotto/Isolated Chest Room/Chest"
+                        "name": "Isolated Chest Room",
+                        "ref": "Crystalline Grotto/Right Save Region/Isolated Chest Room/Chest"
                     },
                     {
-                        "name": "Looong Slide Room - Chest",
-                        "ref": "Crystalline Grotto/Looong Slide Room/Chest"
+                        "name": "Looong Slide Room",
+                        "ref": "Crystalline Grotto/Bottom Region/Looong Slide Room Chest/Chest"
                     },
                     {
-                        "name": "Mari Issue Room - Chest",
-                        "ref": "Crystalline Grotto/Mari Issue Room/Chest"
+                        "name": "Mari Issue Room",
+                        "ref": "Crystalline Grotto/Mari Issue Region/Mari Issue Room/Chest"
                     },
 					{
                         "name": "Crystalline Grotto Boss",
-                        "ref": "Crystalline Grotto/Crystalline Grotto Boss/Boss"
+                        "ref": "Crystalline Grotto/Boss Region/Crystalline Grotto Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Crystalline Grotto/Rescued Ally/Mari"
+                        "ref": "Crystalline Grotto/Boss Region/Rescued Ally/Mari"
                     }
                 ],
                 "map_locations": [
@@ -168,44 +168,44 @@
                 ],
                 "sections": [
                     {
-                        "name": "Next To First Save Room - Chest",
-                        "ref": "Grotto/Next To First Save Room/Chest"
+                        "name": "Next To First Save Room",
+                        "ref": "Grotto/Main Region/Next To First Save Room/Chest"
                     },
                     {
-                        "name": "First Waterfall Room - Chest",
-                        "ref": "Grotto/First Waterfall Room/Chest"
+                        "name": "First Waterfall Room",
+                        "ref": "Grotto/Main Region/First Waterfall Room/Chest"
                     },
                     {
-                        "name": "First Lake Room - Chest",
-                        "ref": "Grotto/First Lake Room/Chest"
+                        "name": "First Lake Room",
+                        "ref": "Grotto/Main Region/First Lake Room/Chest"
                     },
                     {
-                        "name": "Second Lake Room - Chest",
-                        "ref": "Grotto/Second Lake Room/Chest"
+                        "name": "Second Lake Room",
+                        "ref": "Grotto/Main Region/Second Lake Room/Chest"
                     },
                     {
-                        "name": "Spellbook Room - Chest",
-                        "ref": "Grotto/Spellbook Room/Chest"
+                        "name": "Spellbook Room",
+                        "ref": "Grotto/Main Region/Spellbook Room/Chest"
                     },
                     {
-                        "name": "Long Waterfall Room - Chest",
-                        "ref": "Grotto/Long Waterfall Room/Chest"
+                        "name": "Long Waterfall Room",
+                        "ref": "Grotto/Main Region/Long Waterfall Room/Chest"
                     },
                     {
-                        "name": "Isolated Climb Room - Chest",
-                        "ref": "Grotto/Isolated Climb Room/Chest"
+                        "name": "Isolated Climb Room",
+                        "ref": "Grotto/Boss Region/Isolated Climb Room/Chest"
                     },
                     {
-                        "name": "Small Cave Climb Room - Chest",
-                        "ref": "Grotto/Small Cave Climb Room/Chest"
+                        "name": "Small Cave Climb Room",
+                        "ref": "Grotto/Boss Region/Small Cave Climb Room/Chest"
                     },
 					{
                         "name": "Grotto Boss",
-                        "ref": "Grotto/Grotto Boss/Boss"
+                        "ref": "Grotto/Boss Region/Grotto Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Grotto/Rescued Ally/Dia"
+                        "ref": "Grotto/Boss Region/Rescued Ally/Dia"
                     }
                 ],
                 "map_locations": [
@@ -227,16 +227,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purple Goo Room - Chest",
-                        "ref": "Infernal Altar/Purple Goo Room/Chest"
+                        "name": "Purple Goo Room",
+                        "ref": "Infernal Altar/Pre-First Save Region/Purple Goo Room Chest/Chest"
                     },
                     {
-                        "name": "Dark Room - Chest",
-                        "ref": "Infernal Altar/Dark Room/Chest"
+                        "name": "Dark Room",
+                        "ref": "Infernal Altar/Dark Room Chest Region/Dark Room Chest/Chest"
                     },
 					{
                         "name": "Infernal Altar Boss",
-                        "ref": "Infernal Altar/Infernal Altar Boss/Boss"
+                        "ref": "Infernal Altar/Boss Region/Infernal Altar Boss/Boss"
                     }
                 ],
                 "map_locations": [
@@ -258,40 +258,40 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sandy Trap Room - Chest",
-                        "ref": "Ruins/Sandy Trap Room/Chest"
+                        "name": "Sandy Trap Room",
+                        "ref": "Ruins/Left of Sand Pit Region/Sandy Trap Room/Chest"
                     },
                     {
-                        "name": "Vertical Poison Room - Chest",
-                        "ref": "Ruins/Vertical Poison Room/Chest"
+                        "name": "Vertical Poison Room",
+                        "ref": "Ruins/Boss 2 Region/Vertical Poison Room/Chest"
                     },
                     {
-                        "name": "Rolling Rocks Room - Chest",
-                        "ref": "Ruins/Rolling Rocks Room/Chest"
+                        "name": "Rolling Rocks Room",
+                        "ref": "Ruins/Post-Boss 2 Region/Rolling Rocks Room/Chest"
                     },
                     {
-                        "name": "Laptop Room - Chest",
-                        "ref": "Ruins/Laptop Room/Chest"
+                        "name": "Laptop Room",
+                        "ref": "Ruins/Boss 2 Region/Laptop Room/Chest"
                     },
 					{
-                        "name": "Hall of Shame - Chest",
-                        "ref": "Ruins/Hall of Shame/Chest"
+                        "name": "Hall of Shame",
+                        "ref": "Ruins/Left of Sand Pit Region/Hall of Shame/Chest"
                     },
                     {
                         "name": "Ruins Boss 1",
-                        "ref": "Ruins/Ruins Boss 1/Boss"
+                        "ref": "Ruins/Boss 1 Region/Ruins Boss 1/Boss"
                     },
 					{
                         "name": "Ruins Boss 2",
-                        "ref": "Ruins/Ruins Boss 2/Boss"
+                        "ref": "Ruins/Boss 2 Region/Ruins Boss 2/Boss"
                     },
 					{
                         "name": "Ruins Boss 3",
-                        "ref": "Ruins/Ruins Boss 3/Boss"
+                        "ref": "Ruins/Boss 3 Region/Ruins Boss 3/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Ruins/Rescued Ally/Kanan"
+                        "ref": "Ruins/Boss 3 Region/Rescued Ally/Kanan"
                     }
                 ],
                 "map_locations": [
@@ -313,32 +313,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "Giant Poison Enemy Crab Room - Chest",
-                        "ref": "Sea of Trees/Giant Poison Enemy Crab Room/Chest"
+                        "name": "Giant Poison Enemy Crab Room",
+                        "ref": "Sea of Trees/Main Region/Giant Poison Enemy Crab Room/Chest"
                     },
                     {
-                        "name": "Scarlet Delta Suit Room - Chest",
-                        "ref": "Sea of Trees/Scarlet Delta Suit Room/Chest"
+                        "name": "Scarlet Delta Suit Room",
+                        "ref": "Sea of Trees/Main Region/Scarlet Delta Suit Room/Chest"
                     },
                     {
-                        "name": "Golden Snail Room - Chest",
-                        "ref": "Sea of Trees/Golden Snail Room/Chest"
+                        "name": "Golden Snail Room",
+                        "ref": "Sea of Trees/Right Region/Golden Snail Room Chest/Chest"
                     },
                     {
-                        "name": "Slope Room - Chest",
-                        "ref": "Sea of Trees/Slope Room/Chest"
+                        "name": "Slope Room",
+                        "ref": "Sea of Trees/Right Region/Slope Room/Chest"
                     },
                     {
-                        "name": "You Testing Grounds - Chest",
+                        "name": "You Testing Grounds",
                         "ref": "Sea of Trees/You Testing Grounds/Chest"
                     },
 					{
                         "name": "Sea of Trees Boss",
-                        "ref": "Sea of Trees/Sea of Trees Boss/Boss"
+                        "ref": "Sea of Trees/Boss Region/Sea of Trees Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Sea of Trees/Rescued Ally/You"
+                        "ref": "Sea of Trees/Boss Region/Rescued Ally/You"
                     }
                 ],
                 "map_locations": [
@@ -360,32 +360,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "Really Sealed Off Chest Room - Chest",
-                        "ref": "Shipwreck/Really Sealed Off Chest Room/Chest"
+                        "name": "Really Sealed Off Chest Room",
+                        "ref": "Shipwreck/Sealed Off Chest Region/Really Sealed Off Chest Room/Chest"
                     },
                     {
-                        "name": "Spikey Ball Fish Room - Chest",
-                        "ref": "Shipwreck/Spikey Ball Fish Room/Chest"
+                        "name": "Spikey Ball Fish Room",
+                        "ref": "Shipwreck/Left Mast Region/Spikey Ball Fish Room Chest/Chest"
                     },
                     {
-                        "name": "Final Guard Room - Chest",
-                        "ref": "Shipwreck/Final Guard Room/Chest"
+                        "name": "Final Guard Room",
+                        "ref": "Shipwreck/Main Region/Final Guard Room Chest/Chest"
                     },
                     {
-                        "name": "Gloves of Might Room - Chest",
-                        "ref": "Shipwreck/Gloves of Might Room/Chest"
+                        "name": "Gloves of Might Room",
+                        "ref": "Shipwreck/Gloves Region/Gloves of Might Room Chest/Chest"
                     },
                     {
-                        "name": "Postal Guild Bag Room - Chest",
-                        "ref": "Shipwreck/Postal Guild Bag Room/Chest"
+                        "name": "Postal Guild Bag Room",
+                        "ref": "Shipwreck/Postal Guild Bag Region/Postal Guild Bag Room/Chest"
                     },
 					{
                         "name": "Shipwreck Boss",
-                        "ref": "Shipwreck/Shipwreck Boss/Boss"
+                        "ref": "Shipwreck/Boss Region/Shipwreck Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Shipwreck/Rescued Ally/Hanamaru"
+                        "ref": "Shipwreck/Boss Region/Rescued Ally/Hanamaru"
                     }
                 ],
                 "map_locations": [
@@ -408,35 +408,35 @@
                 "sections": [
                     {
                         "name": "Cast Tutorial Room - Left Chest",
-                        "ref": "Sunken Temple/Cast Tutorial Room/Left Chest"
+                        "ref": "Sunken Temple/Entrance Region/Cast Tutorial Room Chests/Left Chest"
                     },
                     {
                         "name": "Cast Tutorial Room - Right Chest",
-                        "ref": "Sunken Temple/Cast Tutorial Room/Right Chest"
+                        "ref": "Sunken Temple/Entrance Region/Cast Tutorial Room Chests/Right Chest"
                     },
                     {
-                        "name": "Fishy Archery Room - Chest",
-                        "ref": "Sunken Temple/Fishy Archery Room/Chest"
+                        "name": "Fishy Archery Room",
+                        "ref": "Sunken Temple/Entrance Region/Fishy Archery Room Chest/Chest"
                     },
                     {
-                        "name": "Pathway to Infernal Altar - Chest",
-                        "ref": "Sunken Temple/Pathway to Infernal Altar/Chest"
+                        "name": "Pathway to Infernal Altar",
+                        "ref": "Sunken Temple/Main Region/Pathway to Infernal Altar/Chest"
                     },
                     {
-                        "name": "Katys Mask Room - Chest",
-                        "ref": "Sunken Temple/Katys Mask Room/Chest"
+                        "name": "Katys Mask Room",
+                        "ref": "Sunken Temple/Main Region/Katys Mask Room/Chest"
                     },
                     {
-                        "name": "Chika Testing Grounds - Chest",
-                        "ref": "Sunken Temple/Chika Testing Grounds/Chest"
+                        "name": "Chika Testing Grounds",
+                        "ref": "Sunken Temple/Post-Boss Region/Chika Testing Grounds/Chest"
                     },
 					{
                         "name": "Sunken Temple Boss",
-                        "ref": "Sunken Temple/Sunken Temple Boss/Boss"
+                        "ref": "Sunken Temple/Main Region/Sunken Temple Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Sunken Temple/Rescued Ally/Chika"
+                        "ref": "Sunken Temple/Main Region/Rescued Ally/Chika"
                     }
                 ],
                 "map_locations": [
@@ -458,32 +458,31 @@
                 ],
                 "sections": [
                     {
-                        "name": "Next To First Save Room - Chest",
-                        "ref": "Sunken Volcano/Next To First Save Room/Chest"
+                        "name": "Next To First Save Room",
+                        "ref": "Sunken Volcano/Top Entrance Region/Next To First Save Room/Chest"
                     },
                     {
-                        "name": "Hotspring Room - Chest",
-                        "ref": "Sunken Volcano/Hotspring Room/Chest"
+                        "name": "Hotspring Room",
+                        "ref": "@Sunken Volcano/Main Region/Hotspring Room/Chest"                    },
+                    {
+                        "name": "Soarshoes Room",
+                        "ref": "Sunken Volcano/Soarshoes Ledge Region/Soarshoes Room/Chest"
                     },
                     {
-                        "name": "Soarshoes Room - Chest",
-                        "ref": "Sunken Volcano/Soarshoes Room/Chest"
+                        "name": "Soarshoes Obligatory Issue Room",
+                        "ref": "Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room/Chest"
                     },
                     {
-                        "name": "Soarshoes Obligatory Issue Room - Chest",
-                        "ref": "Sunken Volcano/Soarshoes Obligatory Issue Room/Chest"
-                    },
-                    {
-                        "name": "Tonosama's Parts Room - Chest",
-                        "ref": "Sunken Volcano/Tonosamas Parts Room/Chest"
+                        "name": "Tonosama's Parts Room",
+                        "ref": "Sunken Volcano/Tonosama's Parts Region/Tonosamas Parts Room/Chest"
                     },
 					{
                         "name": "Sunken Volcano Boss",
-                        "ref": "Sunken Volcano/Sunken Volcano Boss/Boss"
+                        "ref": "Sunken Volcano/Boss Region/Sunken Volcano Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Sunken Volcano/Rescued Ally/Riko"
+                        "ref": "Sunken Volcano/Boss Region/Rescued Ally/Riko"
                     }
                 ],
                 "map_locations": [

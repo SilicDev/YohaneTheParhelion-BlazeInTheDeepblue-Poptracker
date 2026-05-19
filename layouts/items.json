@@ -104,12 +104,80 @@
 								"SeaDeity'sCharm",
 								"FallenAngel'sSoarshoes",
 								"GlovesofMight"
-                            ],
-							[
-							]
+                            ]
 						]
                     }
                 ]
+            }
+        ]
+    },
+    "shared_settings_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+                                "early_chika_blocks_moved"
+                            ],
+                            [
+                                "enable_you_skips"
+                            ],
+                            [
+                                "potsanity"
+                            ]
+                        ]
+                    }
+                ]
+            
+            }
+        ]
+    },
+    "shared_settings_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+                                "early_chika_blocks_moved"
+                            ],
+                            [
+                                "enable_you_skips"
+                            ],
+                            [
+                                "potsanity"
+                            ]
+                        ]
+                    }
+                ]
+            
             }
         ]
     }

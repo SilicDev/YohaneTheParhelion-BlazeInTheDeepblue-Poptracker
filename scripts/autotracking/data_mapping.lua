@@ -9,6 +9,6 @@ PROGRESSIVE_TO_CHARACTER_MAP = {
     ["ProgressiveHanamaru"] = {"Hanamaru", "Laptop"},
     ["ProgressiveRuby"] = {"Ruby", "CutePochette"},
     ["ProgressiveYou"] = {"You", "PostalGuildBag"},
-    ["ProgressiveDia"] = {"Dia", "RedScarletSuit"},
-    ["ProgressiveMari"] = {"Mari", "Lost Monstie"},
+    ["ProgressiveDia"] = {"Dia", "ScarletDeltaSuit"},
+    ["ProgressiveMari"] = {"Mari", "LostMonstie"},
 }

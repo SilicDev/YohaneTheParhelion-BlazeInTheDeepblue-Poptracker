@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "BossToken:8,Riko,Kanan,GlovesofMight"
+            "@Infernal Altar/Boss Region"
         ],
         "children": [
             {

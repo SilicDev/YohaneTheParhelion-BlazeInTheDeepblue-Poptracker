@@ -1981,7 +1981,20 @@
         "img": "images/items/Chika.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveChika"
+        "codes": "ProgressiveChika",
+        "stages": [
+            {
+                "img": "images/items/Chika.png",
+                "disabled_img": "images/items/Chika.png",
+                "codes": "ProgressiveChika_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Katy'sMask.png",
+                "codes": "ProgressiveChika_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Riko",
@@ -1989,7 +2002,20 @@
         "img": "images/items/Riko.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveRiko"
+        "codes": "ProgressiveRiko",
+        "stages": [
+            {
+                "img": "images/items/Riko.png",
+                "disabled_img": "images/items/Riko.png",
+                "codes": "ProgressiveRiko_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/FlameSpellbook.png",
+                "codes": "ProgressiveRiko_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Kanan",
@@ -1997,7 +2023,20 @@
         "img": "images/items/Kanan.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveKanan"
+        "codes": "ProgressiveKanan",
+        "stages": [
+            {
+                "img": "images/items/Kanan.png",
+                "disabled_img": "images/items/Kanan.png",
+                "codes": "ProgressiveKanan_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Tonosama'sParts.png",
+                "codes": "ProgressiveKanan_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Hanamaru",
@@ -2005,7 +2044,20 @@
         "img": "images/items/Hanamaru.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveHanamaru"
+        "codes": "ProgressiveHanamaru",
+        "stages": [
+            {
+                "img": "images/items/Hanamaru.png",
+                "disabled_img": "images/items/Hanamaru.png",
+                "codes": "ProgressiveHanamaru_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Laptop.png",
+                "codes": "ProgressiveHanamaru_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Ruby",
@@ -2013,7 +2065,20 @@
         "img": "images/items/Ruby.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveRuby"
+        "codes": "ProgressiveRuby",
+        "stages": [
+            {
+                "img": "images/items/Ruby.png",
+                "disabled_img": "images/items/Ruby.png",
+                "codes": "ProgressiveRuby_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/CutePochette.png",
+                "codes": "ProgressiveRuby_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive You",
@@ -2021,7 +2086,20 @@
         "img": "images/items/You.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveYou"
+        "codes": "ProgressiveYou",
+        "stages": [
+            {
+                "img": "images/items/You.png",
+                "disabled_img": "images/items/You.png",
+                "codes": "ProgressiveYou_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/PostalGuildBag.png",
+                "codes": "ProgressiveYou_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Dia",
@@ -2029,7 +2107,20 @@
         "img": "images/items/Dia.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveDia"
+        "codes": "ProgressiveDia",
+        "stages": [
+            {
+                "img": "images/items/Dia.png",
+                "disabled_img": "images/items/Dia.png",
+                "codes": "ProgressiveDia_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/ScarletDeltaSuit.png",
+                "codes": "ProgressiveDia_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Progressive Mari",
@@ -2037,7 +2128,20 @@
         "img": "images/items/Mari.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ProgressiveMari"
+        "codes": "ProgressiveMari",
+        "stages": [
+            {
+                "img": "images/items/Mari.png",
+                "disabled_img": "images/items/Mari.png",
+                "codes": "ProgressiveMari_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/LostMonstie.png",
+                "codes": "ProgressiveMari_2",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "update",
@@ -2046,5 +2150,29 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "update"
+    },
+    {
+        "name": "Early Chika Block Moved",
+        "type": "toggle",
+        "img": "images/settings/EarlyChikaBlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "early_chika_blocks_moved"
+    },
+    {
+        "name": "Potsanity",
+        "type": "toggle",
+        "img": "images/settings/Pot1.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "potsanity"
+    },
+    {
+        "name": "You Skips",
+        "type": "toggle",
+        "img": "images/settings/YouSkips.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "enable_you_skips"
     }
 ]

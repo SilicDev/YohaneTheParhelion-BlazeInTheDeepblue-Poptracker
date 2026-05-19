@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Early Chika Block Moved",
+        "type": "toggle",
+        "img": "settings/EarlyChikaBlockx.png",
+        "disabled_img": "settings/EarlyChikaBlock.png",
+        "codes": "earlychikablockmoved"
+    },
+    {
+        "name": "Potsanity",
+        "type": "toggle",
+        "img": "settings/Pot1.png",
+        "disabled_img": "settings/Pot1x.png",
+        "codes": "potsanity"
+    }
+]

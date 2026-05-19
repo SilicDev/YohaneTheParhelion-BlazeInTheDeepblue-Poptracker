@@ -5,270 +5,1205 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "@Grotto"
         ],
         "children": [
-			{	
-				"name": "Grotto Entrance",
-				"chest_unopened_img": "/images/items/doorclose.png",
-                "chest_opened_img": "/images/items/dooropen.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Entrance",
-						"access_rules": [
-							"SeaDeity'sCharm"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				]
-			},
-			{	
-				"name": "Coral Hill Entrance",
-				"chest_unopened_img": "/images/items/doorclose.png",
-                "chest_opened_img": "/images/items/dooropen.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Entrance",
-						"access_rules": [
-							"Dia,Kanan,GlovesofMight",
-							"You,Kanan,GlovesofMight",
-							"Kanan,FallenAngel'sSoarshoes,GlovesofMight",
-							"Dia,Mari,LostMonstie,GlovesofMight",
-							"You,Mari,LostMonstie,GlovesofMight",
-							"Mari,LostMonstie,FallenAngel'sSoarshoes,GlovesofMight"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				]
-			},
-			{
-                "name": "Really Sealed Off Chest Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+            {
+                "name": "Left Entrance Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Boss Region",
+                    "@Shipwreck/Left Mast Region",
+                    "@Shipwreck/Sealed Off Chest Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Entrance",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,You",
-							"@Shipwreck/Grotto Entrance/Entrance,Riko,Kanan",
-							"@Shipwreck/Grotto Entrance/Entrance,Riko,FallenAngel'sSoarshoes",
-							"@Shipwreck/Grotto Entrance/Entrance,Riko,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,Riko",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You,Kanan,FallenAngel'sSoarshoes"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 75,
+                                "y": 103,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Shipwreck",
-                        "x": 187,
-                        "y": 203,
-                        "size": 8
+                        "name": "Cryoslug Over Fragile Platforms Upper Left Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 133,
+                                "y": 132,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cryoslug Over Fragile Platforms Upper Right Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 158,
+                                "y": 132,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cryoslug Over Fragile Platforms Lower Left Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 130,
+                                "y": 148,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cryoslug Over Fragile Platforms Lower Right Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 153,
+                                "y": 148,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CryoTortoise Corner Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 185,
+                                "y": 149,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow Spawner Thing Room Left Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 178,
+                                "y": 171,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow Spawner Thing Room Triplet Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 193,
+                                "y": 171,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow Spawner Thing Room Upper Right Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 222,
+                                "y": 171,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Ice Rotating Thing Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 150,
+                                "y": 183,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Enemy Crab Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 220,
+                                "y": 120,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spikey Ball Fish Room Lower Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 210,
+                                "y": 104,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Spikey Ball Fish Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Left Mast Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Shipwreck/Left Entrance Region,FallenAngel'sSoarshoes",
+                    "@Shipwreck/Left Entrance Region,GlovesofMight",
+                    "@Shipwreck/Main Region,GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Spikey Ball Fish Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,FallenAngel'sSoarshoes",
-							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 229,
+                                "y": 94,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Shipwreck",
-                        "x": 229,
-                        "y": 94,
-                        "size": 8
+                        "name": "Spikey Ball Fish Room Upper Left Box",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "GlovesofMight"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 210,
+                                "y": 71,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spikey Ball Fish Room Upper Right Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "GlovesofMight"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 232,
+                                "y": 71,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Final Guard Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Bottom Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Shipwreck/Left Entrance Region,Kanan",
+                    "@Shipwreck/Postal Guild Bag Region,Kanan",
+                    "@Shipwreck/Postal Guild Bag Region,Mari,LostMonstie",
+                    "@Shipwreck/Main Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Yellow Spawner Thing Room Sneaky Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,Chika",
-							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika",
-							"@Shipwreck/Grotto Entrance/Entrance,You,FallenAngel'sSoarshoes",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 210,
+                                "y": 177,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Shipwreck",
-                        "x": 470,
-                        "y": 91,
-                        "size": 8
+                        "name": "Cold Balls Over Fragile Platforms Upper Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 261,
+                                "y": 162,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cold Balls Over Fragile Platforms Lower Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 276,
+                                "y": 166,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Jellyfish Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 304,
+                                "y": 180,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Jellyfish Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 304,
+                                "y": 194,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Partially Flooded Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 227,
+                                "y": 204,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Gloves of Might Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Main Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Shipwreck/Left Mast Region",
+                    "@Shipwreck/Bottom Region,Chika",
+                    "@Shipwreck/Bottom Region,FallenAngel'sSoarshoes",
+                    "@Shipwreck/Bottom Region,GlovesofMight",
+                    "@Shipwreck/Top of Gloves Region"
                 ],
-                "sections": [
+                "children": [                    
                     {
-                        "name": "Chest",
+                        "name": "Axe Fish Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,Chika,Kanan",
-							"@Shipwreck/Grotto Entrance/Entrance,Chika,FallenAngel'sSoarshoes,GlovesofMight",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Riko,FallenAngel'sSoarshoes",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Riko,GlovesofMight",
-							"@Shipwreck/Grotto Entrance/Entrance,You,FallenAngel'sSoarshoes,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,Chika",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 345,
+                                "y": 89,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Shipwreck",
-                        "x": 542,
-                        "y": 144,
-                        "size": 8
+                        "name": "Final Guard Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "You"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 470,
+                                "y": 91,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard Room Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 410,
+                                "y": 91,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 374,
+                                "y": 124,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Postal Guild Bag Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Sealed Off Chest Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Shipwreck/Left Entrance Region,You,[enable_you_skips]",
+                    "@Shipwreck/Bottom Region,Riko"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Really Sealed Off Chest Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,Chika,Mari,LostMonstie",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Kanan,Ruby,CutePochette,Mari,LostMonstie",
-							"@Shipwreck/Grotto Entrance/Entrance,You,Riko,Chika,Mari,LostMonstie",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Riko,Ruby,CutePochette,Mari,LostMonstie",
-							"@Shipwreck/Grotto Entrance/Entrance,You,Kanan,GlovesofMight",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Chika,Mari,LostMonstie,FallenAngel'sSoarshoes",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Ruby,CutePochette,Mari,LostMonstie,FallenAngel'sSoarshoes",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Chika,Mari,LostMonstie,GlovesofMight",
-                            "@Shipwreck/Grotto Entrance/Entrance,You,Ruby,CutePochette,Mari,LostMonstie,GlovesofMight",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You,Chika,Mari,LostMonstie",
-                            "@Shipwreck/Coral Hill Entrance/Entrance,You,Ruby,CutePochette,Mari,LostMonstie",
-							"@Shipwreck/Coral Hill Entrance/Entrance,You,Kanan,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Shipwreck",
-                        "x": 381,
-                        "y": 196,
-                        "size": 8
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 187,
+                                "y": 203,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{	"name": "Shipwreck Boss",
-				"chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Boss",
-						"access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]",
-							"@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
+            {
+                "name": "Postal Guild Bag Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Bottom Region,You,[enable_you_skips],Kanan",
+                    "@Shipwreck/Bottom Region,Chika,Mari,LostMonstie",
+                    "@Shipwreck/Bottom Region,Ruby,CutePochette,Mari,LostMonstie"
+                ],
+                "children": [
                     {
-                        "map": "Shipwreck",
-                        "x": 717,
-                        "y": 135,
-                        "size": 8
-					}
-				]
-			},
-			{	"name": "Rescued Ally",
-				"chest_unopened_img": "/images/items/HanamaruToken.png",
-                "chest_opened_img": "/images/items/HanamaruTokent.png",
-				"overlay_background": "#000000",
-				"access_rules": [
-					" "
-				],
-				"sections": [
-					{
-						"name": "Hanamaru",
-						"access_rules": [
-							"@Shipwreck/Grotto Entrance/Entrance,GlovesofMight,[Ruby]",
-							"@Shipwreck/Coral Hill Entrance/Entrance,[Ruby]"
-						],
-						"visibility_rules": [],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
+                        "name": "Postal Guild Bag Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 381,
+                                "y": 196,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Post-Postal Guild Bag Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Bottom Region,You,[enable_you_skips]",
+                    "@Shipwreck/Bottom Region,Chika,Mari,LostMonstie,Kanan",
+                    "@Shipwreck/Bottom Region,Ruby,CutePochette,Mari,LostMonstie,Kanan"
+                ],
+                "children": [
                     {
-                        "map": "Shipwreck",
-                        "x": 752,
-                        "y": 135,
-                        "size": 8
-					}
-				]
-			}
+                        "name": "Partially Flooded Axe Fish Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 348,
+                                "y": 221,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cryoslug Corner Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 339,
+                                "y": 199,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Gloves Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Main Region",
+                    "@Shipwreck/Top of Gloves Region"
+                ],
+                "children": [        
+                    {
+                        "name": "Post-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 521,
+                                "y": 178,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gloves of Might Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 542,
+                                "y": 144,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Top of Gloves Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Main Region,You,[enable_you_skips],FallenAngel'sSoarshoes",
+                    "@Shipwreck/Main Region,You,[enable_you_skips],GlovesofMight",
+                    "@Shipwreck/Gloves Region,GlovesofMight",
+                    "@Shipwreck/Right Mast Region"
+                ],
+                "children": [
+                    {
+                        "name": "Gloves of Might Room Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 535,
+                                "y": 121,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Right Mast Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Top of Gloves Region,GlovesofMight",
+                    "@Shipwreck/Top Entrance Region",
+                    "@Shipwreck/Boss Region"
+                ],
+                "children": [
+                    {
+                        "name": "Jelly Balls Room Upper Left Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 639,
+                                "y": 49,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jelly Balls Room Lower Right Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 661,
+                                "y": 69,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Top Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Right Mast Region,GlovesofMight",
+                    "@Coral Hill/Bottom Entrance Region"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Boss Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Right Mast Region,[Ruby]"
+                ],
+                "children": [
+                    {
+                        "name": "Absolutely Pointless Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 640,
+                                "y": 114,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ruby Abuse Room Upper Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 697,
+                                "y": 106,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ruby Abuse Room Lower Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 684,
+                                "y": 114,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {	"name": "Shipwreck Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 717,
+                                "y": 135,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {	"name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/HanamaruToken.png",
+                        "chest_opened_img": "/images/items/HanamaruTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hanamaru",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Shipwreck",
+                                "x": 752,
+                                "y": 135,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Right Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Shipwreck/Boss Region,[You]",
+                    "@Shipwreck/Boss Region,[Hanamaru]"
+                ],
+                "children": [
+                ]
+            }
         ]
     }
 ]

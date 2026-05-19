@@ -29,6 +29,18 @@ if PopVersion and PopVersion >= "0.26.0" then
 end
 
 function OnFrameHandler()
+    if SLOT_DATA['early_chika_blocks_moved'] then
+        local early_chika_blocks_moved = Tracker:FindObjectForCode("early_chika_blocks_moved")
+        early_chika_blocks_moved.Active = (SLOT_DATA['early_chika_blocks_moved'])
+    end
+	if SLOT_DATA['potsanity'] then
+        local potsanity = Tracker:FindObjectForCode("potsanity")
+        potsanity.Active = (SLOT_DATA['potsanity'])
+    end
+    if SLOT_DATA['enable_you_skips'] then
+        local enable_you_skips = Tracker:FindObjectForCode("enable_you_skips")
+        enable_you_skips.Active = (SLOT_DATA['enable_you_skips'])
+    end
     ScriptHost:RemoveOnFrameHandler("load handler")
     -- stuff
     ScriptHost:AddWatchForCode("StateChanged", "*", StateChanged)
@@ -36,6 +48,7 @@ function OnFrameHandler()
     CreateLuaManualStorageItem("manual_location_storage")
     ForceUpdate()
 end
+
 require("scripts/luaitems")
 require("scripts/watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

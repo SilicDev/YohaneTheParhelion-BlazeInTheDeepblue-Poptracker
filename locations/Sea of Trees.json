@@ -5,208 +5,1107 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "@Shipwreck/Shipwreck Boss/Boss,[Hanamaru]",
-			"@Shipwreck/Shipwreck Boss/Boss,[You]"
+            " "
         ],
         "children": [
-						{
-                "name": "Giant Poison Enemy Crab Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+            {
+                "name": "Main Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Shipwreck/Right Entrance Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Next to First Save Room Upper Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"[Hanamaru]",
-							"[You],[FallenAngel'sSoarshoes]",
-							"[You],[GlovesofMight]"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 109,
+                                "y": 206,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sea of Trees",
-                        "x": 271,
-                        "y": 263,
-                        "size": 8
+                        "name": "Next to First Save Room Lower Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 109,
+                                "y": 238,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Snail Room Lower Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 164,
+                                "y": 181,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vertical Snail Room Upper Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "@Sea of Trees/Random Region,Kanan",
+                            "You,[enable_you_skips]"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 179,
+                                "y": 181,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Electro Jelly Black Isopod Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 4",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 5",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 137,
+                                "y": 224,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Watery Slide Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 94,
+                                "y": 256,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Poison Enemy Crab Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "[Hanamaru]",
+                            "[You],[FallenAngel'sSoarshoes]",
+                            "[You],[GlovesofMight]"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 271,
+                                "y": 263,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poison Archery Z Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 270,
+                                "y": 298,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sole Stringfish Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 389,
+                                "y": 256,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poison Gas Poison Rain Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 348,
+                                "y": 238,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Oddly Protected Boxes Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "Riko,[You]",
+                            "Riko,[Hanamaru]"
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 348,
+                                "y": 238,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scarlet Delta Suit Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "Dia,Riko"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 418,
+                                "y": 156,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Scarlet Delta Suit Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Center Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Main Region,Chika",
+                    "@Sea of Trees/Main Region,FallenAngel'sSoarshoes"
                 ],
-                "sections": [
+                "children": [
+                ]
+            },
+            {
+                "name": "Center Chika Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Sea of Trees/Main Region,Riko",
+                    "@Sea of Trees/Center Save Region,Kanan,Tonosama'sParts"
+                ],
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Box Puzzle Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Dia,Riko"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sea of Trees",
-                        "x": 418,
-                        "y": 156,
-                        "size": 8
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 304,
+                                "y": 181,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Golden Snail Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Random Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Main Region,Kanan,Tonosama'sParts,FallenAngel'sSoarshoes",
+                    "@Sea of Trees/Main Region,Kanan,Tonosama'sParts,GlovesofMight",
+                    "@Sea of Trees/Center Chika Region,Chika,Kanan",
+                    "@Sea of Trees/Long Slide Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Gas Control Switch Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Riko,Chika,GlovesofMight",
-							"Riko,Kanan,GlovesofMight",
-                            "Riko,Mari,LostMonstie,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 242,
+                                "y": 156,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sea of Trees",
-                        "x": 529,
-                        "y": 81,
-                        "size": 8
+                        "name": "Deja Vu Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Box 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 4",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 5",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Box 6",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 137,
+                                "y": 224,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Slope Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Right Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Random Region,FallenAngel'sSoarshoes",
+                    "@Sea of Trees/Random Region,GlovesofMight",
+                    "@Sea of Trees/Top Left Region,FallenAngel'sSoarshoes",
+                    "@Sea of Trees/Top Left Region,GlovesofMight",
+                    "@Sea of Trees/Boss Region,You"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Platform Archery Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Riko,Chika,GlovesofMight",
-							"Riko,Kanan,GlovesofMight",
-                            "Riko,Mari,LostMonstie,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 410,
+                                "y": 109,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sea of Trees",
-                        "x": 453,
-                        "y": 130,
-                        "size": 8
+                        "name": "Fireball Climb Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 410,
+                                "y": 88,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hakuna Matata Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 382,
+                                "y": 31,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Platform Slope Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 459,
+                                "y": 112,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Snail Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "[Ruby]",
+                            "[Mari],[LostMonstie]",
+                            "[You],[PostalGuildBag]"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 529,
+                                "y": 81,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Snail Room Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 529,
+                                "y": 109,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slope Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 453,
+                                "y": 130,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard in Water Room Upper Left Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 495,
+                                "y": 181,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard in Water Room Upper Right Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 516,
+                                "y": 181,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard in Water Room Lower Left Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 480,
+                                "y": 212,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard in Water Room Lower Right Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 529,
+                                "y": 212,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "You Testing Grounds",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Top Left Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Right Region,You,FallenAngel'sSoarshoes",
+                    "@Sea of Trees/Right Region,GlovesofMight",
+                    "@Sea of Trees/Long Slide Region,You,[enable_you_skips],FallenAngel'sSoarshoes",
+                    "@Sea of Trees/Long Slide Region,You,[enable_you_skips],GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Absolutely Pointless Room Upper Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"You,Riko,Chika,GlovesofMight",
-							"You,Riko,Kanan,GlovesofMight",
-                            "You,Riko,Mari,LostMonstie,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 234,
+                                "y": 31,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sea of Trees",
-                        "x": 730,
-                        "y": 135,
-                        "size": 8
+                        "name": "Absolutely Pointless Room Lower Boxes",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 250,
+                                "y": 60,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Sea of Trees Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Long Slide Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Top Left Region",
+                    "@Sea of Trees/Random Region,FallenAngel'sSoarshoes,GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Boss",
+                        "name": "Long Slide Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Riko,Chika,GlovesofMight",
-							"Riko,Kanan,GlovesofMight",
-                            "Riko,Mari,LostMonstie,GlovesofMight"
-						],
-						"visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sea of Trees",
-                        "x": 610,
-                        "y": 135,
-                        "size": 8
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 200,
+                                "y": 88,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/YouToken.png",
-                "chest_opened_img": "/images/items/YouTokent.png",
+            {
+                "name": "Boss Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Sea of Trees/Right Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "You",
+                        "name": "Spikey Ball Fish Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Riko,Chika,GlovesofMight",
-							"Riko,Kanan,GlovesofMight",
-                            "Riko,Mari,LostMonstie,GlovesofMight"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 514,
+                                "y": 134,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sea of Trees",
-                        "x": 662,
-                        "y": 135,
-                        "size": 8
+                        "name": "Pre-Boss Room",
+                        "chest_unopened_img": "/images/items/Pot3.png",
+                        "chest_opened_img": "/images/items/Pot3g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Box",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Box",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 557,
+                                "y": 131,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "You Testing Grounds",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "You"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 730,
+                                "y": 135,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sea of Trees Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 610,
+                                "y": 135,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/YouToken.png",
+                        "chest_opened_img": "/images/items/YouTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "You",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sea of Trees",
+                                "x": 662,
+                                "y": 135,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             }

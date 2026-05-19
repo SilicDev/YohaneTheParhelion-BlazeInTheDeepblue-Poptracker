@@ -1,188 +1,1121 @@
 [
     {
         "name": "Coral Hill",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "GlovesofMight,You","GlovesofMight,FallenAngel'sSoarshoes","GlovesofMight,Dia"
+            " "
         ],
         "children": [
             {
-                "name": "Soarshoesnt Chest Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Left Entrance Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Coral Hill Entrance Region",
+                    "@Coral Hill/Left Save Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Coral Hill",
-                        "x": 249,
-                        "y": 216,
-                        "size": 8
+                        "name": "Entrance",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot 1",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 2",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 3",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 4",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Pot 5",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 64,
+                                "y": 227,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Annoying Teleporting Fish Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Left Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Grotto/Coral Hill Entrance Region,GlovesofMight"
                 ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
+                "children": [
+                ]
+            },
+            {
+                "name": "Bottom Left Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Left Save Region",
+                    "@Coral Hill/Top Left Region",
+                    "@Coral Hill/Bottom Left Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Bottom Left Region,GlovesofMight"
                 ],
-                "map_locations": [
+                "children": [
+                ]
+            },
+            {
+                "name": "Random Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Random Save Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Random Save Region,GlovesofMight",
+                    "@Coral Hill/Random Save Region,You"
+            ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Left Climb Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Top Left Region",
+                    "@Coral Hill/Bottom Left Region,GlovesofMight",
+                    "@Coral Hill/Random Save Region,GlovesofMight"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Center Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Post-Random Region",
+                    "@Coral Hill/Teleporting Fish Chest Region,You",
+                    "@Coral Hill/Teleporting Fish Room Region"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Top Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Top Save Climb Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Left of Wall Crab Region"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Top Save Climb Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Below Top Save Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Below Top Save Region,GlovesofMight",
+                    "@Coral Hill/Top of Climb Region",
+                    "@Coral Hill/Spawner Trident Region,GlovesofMight"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Left of Wall Crab Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Top Save Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Wall Crab Chest Region"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Right Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Boss Region,[Ruby]"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Bottom Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Boss Region,Kanan",
+                    "@Coral Hill/Boss Region,Mari,LostMonstie"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Top Left Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Left Save Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Left Save Region,GlovesofMight",
+                    "@Coral Hill/Bottom Left Region,GlovesofMight",
+                    "@Coral Hill/Teleporting Fish Chest Region"
+                ],
+                "children": [
                     {
-                        "map": "Coral Hill",
-                        "x": 177,
-                        "y": 120,
-                        "size": 8
+                        "name": "Next to First Save Room Upper Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 59,
+                                "y": 156,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to First Save Room Upper Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 75,
+                                "y": 156,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to First Save Room Lower Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 59,
+                                "y": 167,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Wallcrab Chest Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Bottom Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Bottom Left Region",
+                    "@Coral Hill/Random Save Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Large Shell Poison Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 145,
+                                "y": 302,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Coral Hill",
-                        "x": 416,
-                        "y": 22,
-                        "size": 8
+                        "name": "Next to Bottom Save Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 215,
+                                "y": 307,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Bottom Save Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 197,
+                                "y": 316,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lost Monstie Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["Mari,Ruby,CutePochette"],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 306,
+                                "y": 312,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Dumb Block Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Soarshoesnt Chest Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Post-Random Region",
+                    "@Coral Hill/Random Save Region,You,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Random Save Region,FallenAngel'sSoarshoes,GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Coral Hill",
-                        "x": 388,
-                        "y": 128,
-                        "size": 8
+                        "name": "Soarshoesnt Chest Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 249,
+                                "y": 216,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Lost Monstie Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Random Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Left Climb Region,You,[enable_you_skips]",
+                    "@Coral Hill/Bottom Region,GlovesofMight",
+                    "@Coral Hill/Random Save Region",
+                    "@Coral Hill/Soarshoesnt Chest Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": ["Mari,Ruby,CutePochette"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Spawner Spawm Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 285,
+                                "y": 221,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Coral Hill",
-                        "x": 306,
-                        "y": 312,
-                        "size": 8
+                        "name": "Spawner Spawm Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 326,
+                                "y": 221,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 339,
+                                "y": 246,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Coral Hill Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Post-Random Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Random Region,GlovesofMight",
+                    "@Coral Hill/Center Save Region"
                 ],
-                "sections": [
+                "children": [    
                     {
-                        "name": "Boss",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Post-Random Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 389,
+                                "y": 171,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Coral Hill",
-                        "x": 662,
-                        "y": 150,
-                        "size": 8
+                        "name": "Post-Random Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 382,
+                                "y": 203,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rocket Claw Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 269,
+                                "y": 152,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/RubyToken.png",
-                "chest_opened_img": "/images/items/RubyTokent.png",
+            {
+                "name": "Teleporting Fish Chest Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Top Left Region,You,[enable_you_skips],FallenAngel'sSoarshoes",
+                    "@Coral Hill/Top Left Region,You,[enable_you_skips],GlovesofMight",
+                    "@Coral Hill/Center Save Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Ruby",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Coral Hill",
-                        "x": 704,
-                        "y": 150,
-                        "size": 8
+                        "name": "Annoying Teleporting Fish Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 177,
+                                "y": 120,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
-            }
+            },
+            {
+                "name": "Teleporting Fish Room Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Center Save Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Center Save Region,GlovesofMight",
+                    "@Coral Hill/Top of Climb Region"
+                ],
+                "children": [
+                    {
+                        "name": "Annoying Teleporting Fish Room Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 215,
+                                "y": 127,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bottom of Climb Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Post-Random Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Top of Climb Region,Ruby,CutePochette"
+                ],
+                "children": [
+                    {
+                        "name": "Horizontal Seahorse Altar Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 448,
+                                "y": 127,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dumb Block Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 388,
+                                "y": 128,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Top of Climb Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Teleporting Fish Room Region,GlovesofMight",
+                    "@Coral Hill/Below Top Save Region",
+                    "@Coral Hill/Top Save Climb Region",
+                    "@Coral Hill/Bottom of Climb Region,Ruby,CutePochette,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Conga Fish Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 242,
+                                "y": 102,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Below Top Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Top of Climb Region,GlovesofMight",
+                    "@Coral Hill/Top Save Climb Region"
+                ],
+                "children": [
+                    {
+                        "name": "Rectangle Seahorse Altar Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 361,
+                                "y": 63,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Wall Crab Chest Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Left of Wall Crab Region,GlovesofMight",
+                    "@Coral Hill/Right of Wall Crab Region,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Wall Crab Chest Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 416,
+                                "y": 22,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Spawner Trident Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Top Save Climb Region,GlovesofMight",
+                    "@Coral Hill/Top of Climb Region,GlovesofMight",
+                    "@Coral Hill/Boss Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Boss Region,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Spawner Trident Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 438,
+                                "y": 84,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Right of Wall Crab Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Wall Crab Chest Region",
+                    "@Coral Hill/Boss Region,FallenAngel'sSoarshoes",
+                    "@Coral Hill/Boss Region,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Double Conga Fish Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 546,
+                                "y": 57,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Conga Fish Room Center Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 546,
+                                "y": 77,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Conga Fish Room Lower Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 546,
+                                "y": 97,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Boss Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Coral Hill/Spawner Trident Region,GlovesofMight",
+                    "@Coral Hill/Right Entrance Region"
+                ],
+                "children": [
+                    {
+                        "name": "Vertical Poison Fish Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 507,
+                                "y": 82,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Corner Close to Boss Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 536,
+                                "y": 149,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coral Hill Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 662,
+                                "y": 150,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/RubyToken.png",
+                        "chest_opened_img": "/images/items/RubyTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Ruby",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Coral Hill",
+                                "x": 704,
+                                "y": 150,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            }    
         ]
     }
 ]

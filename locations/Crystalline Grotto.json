@@ -5,201 +5,804 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "@Coral Hill"
+            " "
         ],
         "children": [
             {
-                "name": "One Way Slide Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Entrance Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Coral Hill/Right Entrance Region"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "name": "Crabby Electro Jelly Room Left Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 130,
+                                "y": 152,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Crystalline Grotto",
-                        "x": 223,
-                        "y": 193,
-                        "size": 8
+                        "name": "Crabby Electro Jelly Room Right Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 166,
+                                "y": 152,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Slope Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 166,
+                                "y": 152,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "One Way Slide Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 223,
+                                "y": 193,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Poison Enemy Crab Room",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 201,
+                                "y": 177,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sole Electro Jelly Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 95,
+                                "y": 177,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dude Spikes LMAO Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 117,
+                                "y": 203,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Giant Sliding Crystals Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Left Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Entrance Region,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Entrance Region,GlovesofMight"
                 ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
+                "children": [
+                ]
+            },
+            {
+                "name": "Top of Left Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Left Save Region,GlovesofMight",
+                    "@Crystalline Grotto/Left Save Region,You,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Top Region,You",
+                    "@Crystalline Grotto/Top Region,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Top Region,GlovesofMight"
                 ],
-                "map_locations": [
+                "children": [
+                ]
+            },
+            {
+                "name": "Top Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Center Region,GlovesofMight",
+                    "@Crystalline Grotto/Random Region"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Left of Center Save Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Entrance Region,You,[enable_you_skips]",
+                    "@Crystalline Grotto/Center Save Region,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Center Save Region,GlovesofMight",
+                    "@Crystalline Grotto/Center Save Region,You",
+                    "@Crystalline Grotto/Post-Boss Region,Dia",
+                    "@Crystalline Grotto/Post-Boss Region,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Post-Boss Region,GlovesofMight"
+                ],
+                "children": [
+                ]
+            },
+            {
+                "name": "Post-Boss Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Entrance Region,[Hanamaru]"
+                ],
+                "children": [
                     {
-                        "map": "Crystalline Grotto",
-                        "x": 295,
-                        "y": 122,
-                        "size": 8
+                        "name": "Weird Electric Rotating Thing Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 159,
+                                "y": 224,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Sardine School Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 151,
+                                "y": 253,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Isolated Chest Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Top Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Top of Left Save Region",
+                    "@Crystalline Grotto/Entrance Region,Kanan,Tonosama'sParts",
+                    "@Crystalline Grotto/Center Region,Riko"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Giant Sliding Crystals Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,[Dia],[Kanan]",
-                            "Ruby,CutePochette,[You]",
-                            "Ruby,CutePochette,[FallenAngel'sSoarshoes]",
-                            "[Hanamaru],[Dia],[FallenAngel'sSoarshoes],[Kanan]"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Crystalline Grotto",
-                        "x": 544,
-                        "y": 172,
-                        "size": 8
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 295,
+                                "y": 122,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Looong Slide Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Random Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Top Save Region,GlovesofMight"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Seahorse Altar Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "Ruby,You,[Dia],[Kanan]",
-                            "Ruby,CutePochette,You"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 481,
+                                "y": 37,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Crystalline Grotto",
-                        "x": 473,
-                        "y": 210,
-                        "size": 8
+                        "name": "Pre-Random Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 474,
+                                "y": 55,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Mari Issue Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Center Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Top Region,You,Riko",
+                    "@Crystalline Grotto/Entrance Region,@Crystalline Grotto/Center Save Region,Chika",
+                    "@Crystalline Grotto/Entrance Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Center Save Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Center Save Region,FallenAngel'sSoarshoes",
+                    "@Crystalline Grotto/Center Save Region,GlovesofMight",
+                    "@Crystalline Grotto/Mari Issue Region,GlovesofMight",
+                    "@Crystalline Grotto/Top Save Region",
+                    "@Crystalline Grotto/Right Save Region,Chika",
+                    "@Crystalline Grotto/Right Save Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Bottom Region,Chika",
+                    "@Crystalline Grotto/Bottom Region,Ruby,CutePochette"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Chest",
+                        "name": "Poison Worm Slope Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,Mari",
-                            "Mari,[Hanamaru]",
-                            "Ruby,CutePochette,Mari"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Crystalline Grotto",
-                        "x": 361,
-                        "y": 221,
-                        "size": 8
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 375,
+                                "y": 103,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Crystalline Grotto Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Center Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Entrance Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Left of Center Save Region",
+                    "@Crystalline Grotto/Mari Issue Region,Mari,SeaDeity'sCharm"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Boss",
+                        "name": "Giant Sliding Crystals Room Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,[Dia],[Kanan]",
-                            "Ruby,CutePochette",
-                            "[Hanamaru],[Dia],[Kanan]"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 333,
+                                "y": 150,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Crystalline Grotto",
-                        "x": 299,
-                        "y": 250,
-                        "size": 8
+                        "name": "Empty Corner Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 298,
+                                "y": 174,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/MariToken.png",
-                "chest_opened_img": "/images/items/MariTokent.png",
+            {
+                "name": "Right Save Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "@Crystalline Grotto/Random Region,[Dia],[Kanan],[SeaDeity'sCharm]",
+                    "@Crystalline Grotto/Center Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Bottom Region,GlovesofMight",
+                    "@Crystalline Grotto/Bottom Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Bottom Region,Chika"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Mari",
+                        "name": "Isolated Chest Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-                            "You,[Dia],[Kanan]",
-                            "Ruby,CutePochette",
-                            "[Hanamaru],[Dia],[Kanan]"
+                            " "
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 544,
+                                "y": 172,
+                                "size": 8
+                            }
+                        ]
                     }
+                ]
+            },
+            {
+                "name": "Bottom Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Center Region,Ruby,CutePochette",
+                    "@Crystalline Grotto/Right Save Region"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "Crystalline Grotto",
-                        "x": 263,
-                        "y": 250,
-                        "size": 8
+                        "name": "Axe Fish Room Upper Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 410,
+                                "y": 197,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Axe Fish Room Lower Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 397,
+                                "y": 207,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Guard Room",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 501,
+                                "y": 243,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Looong Slide Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "You"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 473,
+                                "y": 210,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Looong Slide Room Rocks",
+                        "chest_unopened_img": "/images/items/Pot4.png",
+                        "chest_opened_img": "/images/items/Pot4g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Pile",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 516,
+                                "y": 211,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mari Issue Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Center Region"
+                ],
+                "children": [
+                    {
+                        "name": "Mari Issue Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "Mari"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 361,
+                                "y": 221,
+                                "size": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Boss Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Crystalline Grotto/Bottom Region,Dia",
+                    "@Crystalline Grotto/Bottom Region,FallenAngel'sSoarshoes,GlovesofMight"
+                ],
+                "children": [
+                    {
+                        "name": "Crystalline Grotto Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "access_rules": [
+                                    "You,[enable_you_skips],[Dia],[Kanan]",
+                                    "You,Riko,[Dia],[Kanan]",
+                                    "Ruby,CutePochette",
+                                    "[Hanamaru],[Dia],[Kanan]"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 299,
+                                "y": 250,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/MariToken.png",
+                        "chest_opened_img": "/images/items/MariTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Mari",
+                                "access_rules": [
+                                    "You,[enable_you_skips],[Dia],[Kanan]",
+                                    "You,Riko,[Dia],[Kanan]",
+                                    "Ruby,CutePochette",
+                                    "[Hanamaru],[Dia],[Kanan]"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Crystalline Grotto",
+                                "x": 263,
+                                "y": 250,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             }

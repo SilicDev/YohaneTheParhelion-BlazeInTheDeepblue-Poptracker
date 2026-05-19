@@ -1,197 +1,582 @@
 [
     {
         "name": "Sunken Temple",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
         ],
         "children": [
             {
-                "name": "Cast Tutorial Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Game Start",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                " "
                 ],
-                "sections": [
+                "children": [ ]
+            },
+            {
+                "name": "Entrance Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Sunken Temple/Game Start",
+                    "@Sunken Temple/Random Region,GlovesofMight"
+                ],
+                "children": [ 
                     {
-                        "name": "Left Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Cast Tutorial Room Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 141,
+                                "y": 86,
+                                "size": 8
+                            }
+                        ]
                     },
                     {
-                        "name": "Right Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sunken Temple",
-                        "x": 170,
-                        "y": 86,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Fishy Archery Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
+                        "name": "Cast Tutorial Room Chests",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"FallenAngel'sSoarshoes",
-							"GlovesofMight"
-							],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Chest",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 170,
+                                "y": 86,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Temple",
-                        "x": 228,
-                        "y": 86,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Pathway to Infernal Altar",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sunken Temple",
-                        "x": 251,
-                        "y": 283,
-                        "size": 8
-                    }
-                ]
-            },
-            {
-                "name": "Katys Mask Room",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest",
+                        "name": "Fishy Archery Room Chest",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [
-							"Chika,You",
-							"Chika,FallenAngel'sSoarshoes"
-						],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
+                            "FallenAngel'sSoarshoes",
+                            "GlovesofMight"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 228,
+                                "y": 86,
+                                "size": 8
+                            }
+                        ]
+                    },
                     {
-                        "map": "Sunken Temple",
-                        "x": 125,
-                        "y": 299,
-                        "size": 8
+                        "name": "Fishy Archery Room Upper Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 228,
+                                "y": 110,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fishy Archery Room Middle Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 215,
+                                "y": 125,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fishy Archery Room Bottom Pot",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 228,
+                                "y": 140,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Chika Testing Grounds",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "name": "Random Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                "@Sunken Temple/Entrance Region"
                 ],
-                "sections": [
+                "children": [ 
                     {
-                        "name": "Chest",
-                        "access_rules": ["You"],
-                        "visibility_rules": [],
-                        "item_count": 1
+                        "name": "Pre-Random Room Left Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 223,
+                                "y": 178,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room Middle Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Far Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Far Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 258,
+                                "y": 178,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pre-Random Room Right Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [	
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 293,
+                                "y": 178,
+                                "size": 8
+                            }
+                        ]
                     }
+                ]
+            },    
+            {
+                "name": "Main Region",
+                "overlay_background": "#000000",
+                "access_rules": [
+                "@Sunken Temple/Random Region"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "Sunken Temple",
-                        "x": 468,
-                        "y": 306,
-                        "size": 8
+                        "name": "Ancient Aliens Room Top Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 180,
+                                "y": 246,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ancient Aliens Room Bottom Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 180,
+                                "y": 304,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pathway to Infernal Altar First Set of Pots",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 229,
+                                "y": 285,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pathway to Infernal Altar",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Left Pot",
+                                "chest_unopened_img": "/images/items/Pot1.png",
+                                "chest_opened_img": "/images/items/Pot1g.png",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "chest_unopened_img": "/images/items/Pot1.png",
+                                "chest_opened_img": "/images/items/Pot1g.png",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "chest_unopened_img": "/images/items/Pot1.png",
+                                "chest_opened_img": "/images/items/Pot1g.png",
+                                "access_rules": [],
+                                "visibility_rules": ["potsanity"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 251,
+                                "y": 285,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tiny Hallway",
+                        "chest_unopened_img": "/images/items/Pot1.png",
+                        "chest_opened_img": "/images/items/Pot1g.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "visibility_rules": ["potsanity"],
+                        "sections": [
+                            {
+                                "name": "Left Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Middle Pot",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Pot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 153,
+                                "y": 310,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Katys Mask Room",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "Chika,FallenAngel'sSoarshoes",
+                            "[enable_you_skips],Chika,You"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 125,
+                                "y": 299,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunken Temple Boss",
+                        "chest_unopened_img": "/images/items/BossToken.png",
+                        "chest_opened_img": "/images/items/BossTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 309,
+                                "y": 310,
+                                "size": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescued Ally",
+                        "chest_unopened_img": "/images/items/ChikaToken.png",
+                        "chest_opened_img": "/images/items/ChikaTokent.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chika",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 362,
+                                "y": 310,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Sunken Temple Boss",
-                "chest_unopened_img": "/images/items/BossToken.png",
-                "chest_opened_img": "/images/items/BossTokent.png",
+            {
+                "name": "Post-Boss Region",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Chika",
+                    "early_chika_blocks_moved"
                 ],
-                "sections": [
+                "children": [
                     {
-                        "name": "Boss",
+                        "name": "Chika Testing Grounds",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
                         "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sunken Temple",
-                        "x": 309,
-                        "y": 310,
-                        "size": 8
-                    }
-                ]
-            },
-			{
-                "name": "Rescued Ally",
-                "chest_unopened_img": "/images/items/ChikaToken.png",
-                "chest_opened_img": "/images/items/ChikaTokent.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chika",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Sunken Temple",
-                        "x": 362,
-                        "y": 310,
-                        "size": 8
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["You"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sunken Temple",
+                                "x": 468,
+                                "y": 306,
+                                "size": 8
+                            }
+                        ]
                     }
                 ]
             }
