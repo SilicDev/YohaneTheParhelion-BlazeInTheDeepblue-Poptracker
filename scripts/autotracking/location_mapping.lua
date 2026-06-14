@@ -59,7 +59,7 @@ LOCATION_MAPPING = {
 	[101] = {"@Sunken Volcano/Soarshoes Ledge Region/Soarshoes Room Chest/Chest"},
 	[102] = {"@Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room Chest/Chest"},
 	[103] = {"@Sunken Volcano/Tonosama's Parts Region/Tonosamas Parts Room/Chest"},
-	[104] = {"@Shipwreck/Bottom Region/Really Sealed Off Region/Really Sealed Off Chest Room/Chest"},
+	[104] = {"@Shipwreck/Really Sealed Off Region/Really Sealed Off Chest Room/Chest"},
 	[105] = {"@Shipwreck/Left Mast Region/Spikey Ball Fish Room Chest/Chest"},
 	[106] = {"@Shipwreck/Main Region/Final Guard Room Chest/Chest"},
 	[107] = {"@Shipwreck/Gloves Region/Gloves of Might Room Chest/Chest"},
@@ -79,6 +79,6 @@ LOCATION_MAPPING = {
 	[121] = {"@Sea of Trees/Right Region/Golden Snail Room Chest/Chest"},
 	[122] = {"@Sea of Trees/Right Region/Slope Room/Chest"},
 	[123] = {"@Sea of Trees/Boss Region/You Testing Grounds/Chest"},
-	[124] = {"@Infernal Altar/Pre-First Save Region/Purple Goo Room Chest/Chest"},
+	[124] = {"@Infernal Altar/First Save Region/Purple Goo Room Chest/Chest"},
 	[125] = {"@Infernal Altar/Dark Room Chest Region/Dark Room Chest/Chest"},
 }

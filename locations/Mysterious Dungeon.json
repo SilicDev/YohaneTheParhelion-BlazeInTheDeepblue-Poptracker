@@ -82,7 +82,7 @@
                     },
                     {
                         "name": "Wall Crab Chest Room",
-                        "ref": "Coral Hill/Wall Crab Chest Region/Wallcrab Chest Room/Chest"
+                        "ref": "Coral Hill/Wall Crab Chest Region/Wall Crab Chest Room/Chest"
                     },
                     {
                         "name": "Dumb Block Room",
@@ -177,11 +177,11 @@
                     },
                     {
                         "name": "First Lake Room",
-                        "ref": "Grotto/Main Region/First Lake Room/Chest"
+                        "ref": "Grotto/Main Region/First Lake Room Chest/Chest"
                     },
                     {
                         "name": "Second Lake Room",
-                        "ref": "Grotto/Main Region/Second Lake Room/Chest"
+                        "ref": "Grotto/Main Region/Second Lake Room Chest/Chest"
                     },
                     {
                         "name": "Spellbook Room",
@@ -228,7 +228,7 @@
                 "sections": [
                     {
                         "name": "Purple Goo Room",
-                        "ref": "Infernal Altar/Pre-First Save Region/Purple Goo Room Chest/Chest"
+                        "ref": "Infernal Altar/First Save Region/Purple Goo Room Chest/Chest"
                     },
                     {
                         "name": "Dark Room",
@@ -259,15 +259,15 @@
                 "sections": [
                     {
                         "name": "Sandy Trap Room",
-                        "ref": "Ruins/Left of Sand Pit Region/Sandy Trap Room/Chest"
+                        "ref": "Ruins/Left of Sand Pit Region/Sandy Trap Room Chest/Chest"
                     },
                     {
                         "name": "Vertical Poison Room",
-                        "ref": "Ruins/Boss 2 Region/Vertical Poison Room/Chest"
+                        "ref": "Ruins/Boss 2 Region/Vertical Poison Room Chest/Chest"
                     },
                     {
                         "name": "Rolling Rocks Room",
-                        "ref": "Ruins/Post-Boss 2 Region/Rolling Rocks Room/Chest"
+                        "ref": "Ruins/Post-Boss 2 Region/Rolling Rocks Room Chest/Chest"
                     },
                     {
                         "name": "Laptop Room",
@@ -330,7 +330,7 @@
                     },
                     {
                         "name": "You Testing Grounds",
-                        "ref": "Sea of Trees/You Testing Grounds/Chest"
+                        "ref": "Sea of Trees/Boss Region/You Testing Grounds/Chest"
                     },
 					{
                         "name": "Sea of Trees Boss",
@@ -361,7 +361,7 @@
                 "sections": [
                     {
                         "name": "Really Sealed Off Chest Room",
-                        "ref": "Shipwreck/Bottom Region/Sealed Off Chest Region/Really Sealed Off Chest Room/Chest"
+                        "ref": "Shipwreck/Sealed Off Chest Region/Really Sealed Off Chest Room/Chest"
                     },
                     {
                         "name": "Spikey Ball Fish Room",
