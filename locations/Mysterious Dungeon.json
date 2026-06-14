@@ -459,18 +459,18 @@
                 "sections": [
                     {
                         "name": "Next To First Save Room",
-                        "ref": "@Sunken Volcano/Top Entrance Region/Next To First Save Room/Chest"
+                        "ref": "@Sunken Volcano/Top Entrance Region/Next To First Save Room Chest/Chest"
                     },
                     {
                         "name": "Hotspring Room",
-                        "ref": "@Sunken Volcano/Main Region/Hotspring Room/Chest"                    },
+                        "ref": "@Sunken Volcano/Main Region/Hotspring Room Chest/Chest"                    },
                     {
                         "name": "Soarshoes Room",
                         "ref": "@Sunken Volcano/Soarshoes Ledge Region/Soarshoes Room Chest/Chest"
                     },
                     {
                         "name": "Soarshoes Obligatory Issue Room",
-                        "ref": "@Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room/Chest"
+                        "ref": "@Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room Chest/Chest"
                     },
                     {
                         "name": "Tonosama's Parts Room",
