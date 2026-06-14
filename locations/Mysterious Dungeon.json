@@ -361,7 +361,7 @@
                 "sections": [
                     {
                         "name": "Really Sealed Off Chest Room",
-                        "ref": "Shipwreck/Sealed Off Chest Region/Really Sealed Off Chest Room/Chest"
+                        "ref": "Shipwreck/Bottom Region/Sealed Off Chest Region/Really Sealed Off Chest Room/Chest"
                     },
                     {
                         "name": "Spikey Ball Fish Room",
@@ -459,30 +459,30 @@
                 "sections": [
                     {
                         "name": "Next To First Save Room",
-                        "ref": "Sunken Volcano/Top Entrance Region/Next To First Save Room/Chest"
+                        "ref": "@Sunken Volcano/Top Entrance Region/Next To First Save Room/Chest"
                     },
                     {
                         "name": "Hotspring Room",
                         "ref": "@Sunken Volcano/Main Region/Hotspring Room/Chest"                    },
                     {
                         "name": "Soarshoes Room",
-                        "ref": "Sunken Volcano/Soarshoes Ledge Region/Soarshoes Room/Chest"
+                        "ref": "@Sunken Volcano/Soarshoes Ledge Region/Soarshoes Room/Chest"
                     },
                     {
                         "name": "Soarshoes Obligatory Issue Room",
-                        "ref": "Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room/Chest"
+                        "ref": "@Sunken Volcano/Boss Region/Soarshoes Obligatory Issue Room/Chest"
                     },
                     {
                         "name": "Tonosama's Parts Room",
-                        "ref": "Sunken Volcano/Tonosama's Parts Region/Tonosamas Parts Room/Chest"
+                        "ref": "@Sunken Volcano/Tonosama's Parts Region/Tonosamas Parts Room/Chest"
                     },
 					{
                         "name": "Sunken Volcano Boss",
-                        "ref": "Sunken Volcano/Boss Region/Sunken Volcano Boss/Boss"
+                        "ref": "@Sunken Volcano/Boss Region/Sunken Volcano Boss/Boss"
                     },
 					{
                         "name": "Rescued Ally",
-                        "ref": "Sunken Volcano/Boss Region/Rescued Ally/Riko"
+                        "ref": "@Sunken Volcano/Boss Region/Rescued Ally/Riko"
                     }
                 ],
                 "map_locations": [
