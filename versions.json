@@ -1,6 +1,14 @@
 {
     "versions": [
 		{
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/archive/refs/tags/0.3.0.zip",
+            "sha256": "0f88b00fc0a9f12ec724a8acd440eb603fafec38f36de0aed42ebd5b4affea9f",
+            "changelog": [
+                "Fixed a display bug and some location logic bugs"
+            ]
+        },
+        {
             "package_version": "0.3.0",
             "download_url": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/archive/refs/tags/0.3.0.zip",
             "sha256": "38d2dca36320486b2c304fbf98fa40bddfd22f66398be51d057c734b52ffaff8",
