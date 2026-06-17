@@ -437,7 +437,8 @@
                 "access_rules": [
                     "@Sea of Trees/Main Region,Kanan,Tonosama'sParts,FallenAngel'sSoarshoes",
                     "@Sea of Trees/Main Region,Kanan,Tonosama'sParts,GlovesofMight",
-                    "@Sea of Trees/Center Chika Region,Chika,Kanan",
+                    "@Sea of Trees/Center Chika Region,Chika",
+                    "@Sea of Trees/Center Chika Region,Kanan",
                     "@Sea of Trees/Long Slide Region"
                 ],
                 "children": [
