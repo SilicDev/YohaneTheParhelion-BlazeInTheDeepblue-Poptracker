@@ -1,6 +1,14 @@
 {
     "versions": [
 		{
+            "package_version": "0.3.3",
+            "download_url": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/archive/refs/tags/0.3.3.zip",
+            "sha256": "b848ce527f730f09b965098ea650cc49d3c6680dd18aea295c7326e742a21256",
+            "changelog": [
+                "Fixed Really Sealed Off Chest not auto-tracking as well as a few ally upgrade locations not requiring said ally to collect"
+            ]
+        },
+        {
             "package_version": "0.3.2",
             "download_url": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/archive/refs/tags/0.3.2.zip",
             "sha256": "a62cbcb81fdbc9f7eda2f2182d28e3e8a5710395f98ea6577fbca94e497dd02c",
