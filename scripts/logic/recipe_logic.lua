@@ -31,7 +31,7 @@ element_materials = {
     [298] = "Dia"
 }
 
--- use this in the json via "^$can_crafte_recipe|id"
+-- use this in the json via "^$can_craft_recipe|id"
 function can_craft_recipe(recipe_id)
     local recipe = recipes[tonumber(recipe_id)]
     if recipe == nil then
