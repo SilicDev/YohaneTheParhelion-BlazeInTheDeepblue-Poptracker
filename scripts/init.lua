@@ -22,6 +22,7 @@ require("scripts/locations_import")
 require("scripts/logic/logic_helper")
 require("scripts/logic/base_logic")
 require("scripts/logic/graph_logic/logic_main")
+require("scripts/logic/recipe_logic")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.26.0" then
@@ -40,6 +41,21 @@ function OnFrameHandler()
     if SLOT_DATA['enable_you_skips'] then
         local enable_you_skips = Tracker:FindObjectForCode("enable_you_skips")
         enable_you_skips.Active = (SLOT_DATA['enable_you_skips'])
+    end
+    if SLOT_DATA['craftsanity'] and string.len(SLOT_DATA['recipes']) ~= 0 then
+        local recipe_data = SLOT_DATA['recipes']
+        for i=1,93 do
+            recipe = {}
+            for j=1,4 do
+                ingredient = tonumber(string.sub(recipe_data, 3, 4)..string.sub(recipe_data, 1, 2), 16)
+                id = ingredient & 0x3FF
+                amount = (ingredient & 0xFC00) >> 10
+                --print("ID: "..tostring(id).." x"..tostring(amount))
+                recipe_data = string.sub(recipe_data, 5)
+                table.insert(recipe, {["id"] = id, ["amount"] = amount})
+            end
+            table.insert(recipes, recipe)
+        end
     end
     ScriptHost:RemoveOnFrameHandler("load handler")
     -- stuff

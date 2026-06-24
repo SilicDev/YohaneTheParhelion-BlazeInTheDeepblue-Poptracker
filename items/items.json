@@ -1,7 +1,7 @@
 [
     {
         "name": "Chilled Enzyme",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ChilledEnzyme.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Slender Tentacle",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SlenderTentacle.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Scaled Quiver",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ScaledQuiver.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Motivational Headband",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MotivationalHeadband.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Shiny Tail",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ShinyTail.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Soul Crystal",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SoulCrystal.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Magicolight",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Magicolight.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -65,7 +65,7 @@
     },
     {
         "name": "Mysterious Component",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MysteriousComponent.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -73,7 +73,7 @@
     },
     {
         "name": "Elongated Horn",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ElongatedHorn.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -89,7 +89,7 @@
     },
     {
         "name": "Freaky Tentacle",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FreakyTentacle.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -97,7 +97,7 @@
     },
     {
         "name": "Majestic Drop",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MajesticDrop.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -105,7 +105,7 @@
     },
     {
         "name": "Emperor's Crown",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Emperor'sCrown.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -137,7 +137,7 @@
     },
     {
         "name": "Magical Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MagicalCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -145,7 +145,7 @@
     },
     {
         "name": "Orichalcum Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/OrichalcumRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -153,7 +153,7 @@
     },
     {
         "name": "Silver Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SilverRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -161,7 +161,7 @@
     },
     {
         "name": "Ninja Shuriken",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/NinjaShuriken.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -169,7 +169,7 @@
     },
     {
         "name": "Beckoning Cat Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BeckoningCatEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -177,7 +177,7 @@
     },
     {
         "name": "Siren's Tear",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Siren'sTear.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -185,7 +185,7 @@
     },
     {
         "name": "Hot-blooded Bell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Hot-bloodedBell.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -193,7 +193,7 @@
     },
     {
         "name": "Sardine Core",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SardineCore.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -201,7 +201,7 @@
     },
     {
         "name": "Fallen Angel's Tears",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FallenAngel'sTears.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -209,7 +209,7 @@
     },
     {
         "name": "Gold-threaded Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Gold-threadedCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -217,7 +217,7 @@
     },
     {
         "name": "Ruby Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RubyRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Lady of the Lake's Charm",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LadyoftheLake'sCharm.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -233,7 +233,7 @@
     },
     {
         "name": "Teal Fishskin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TealFishskin.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -249,7 +249,7 @@
     },
     {
         "name": "Sardine Oil",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SardineOil.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -257,7 +257,7 @@
     },
     {
         "name": "Coral Ruby",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CoralRuby.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -265,7 +265,7 @@
     },
     {
         "name": "Arch's Timber",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Arch'sTimber.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -281,7 +281,7 @@
     },
     {
         "name": "Gold Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/GoldRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -289,7 +289,7 @@
     },
     {
         "name": "Magic Mirror",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MagicMirror.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -297,7 +297,7 @@
     },
     {
         "name": "Ex Defense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ExDefenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -305,7 +305,7 @@
     },
     {
         "name": "Multicolored Seaweed",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MulticoloredSeaweed.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -313,7 +313,7 @@
     },
     {
         "name": "Broken Lance",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BrokenLance.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -337,7 +337,7 @@
     },
     {
         "name": "Platinum Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PlatinumRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -345,7 +345,7 @@
     },
     {
         "name": "Crystal Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CrystalRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -369,7 +369,7 @@
     },
     {
         "name": "Compound Lens",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CompoundLens.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -377,7 +377,7 @@
     },
     {
         "name": "Pirate's Symbol",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PiratesSymbol.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -385,7 +385,7 @@
     },
     {
         "name": "Poisonball",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Poisonball.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -393,7 +393,7 @@
     },
     {
         "name": "Lady of the Lake's Fin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LadyoftheLake'sFin.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -401,7 +401,7 @@
     },
     {
         "name": "Fireproof Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FireproofCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -417,7 +417,7 @@
     },
     {
         "name": "Huge Conch",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/HugeConch.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -425,7 +425,7 @@
     },
     {
         "name": "Strange Metal",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/StrangeMetal.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -433,7 +433,7 @@
     },
     {
         "name": "Magic Medal",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MagicMedal.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -441,7 +441,7 @@
     },
     {
         "name": "Shinestew",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Shinestew.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -449,7 +449,7 @@
     },
     {
         "name": "Ultimate Antidote",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/UltimateAntidote.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -465,7 +465,7 @@
     },
     {
         "name": "Clover Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CloverEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -473,7 +473,7 @@
     },
     {
         "name": "Tranquil Foliate",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TranquilFoliate.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -481,7 +481,7 @@
     },
     {
         "name": "Sphene Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SpheneEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -489,7 +489,7 @@
     },
     {
         "name": "Darkness Potion",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DarknessPotion.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -505,7 +505,7 @@
     },
     {
         "name": "Karkino's Pincer",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Karkino'sPincer.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -513,7 +513,7 @@
     },
     {
         "name": "Phantom Robe",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PhantomRobe.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -521,7 +521,7 @@
     },
     {
         "name": "Miniature Train",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MiniatureTrain.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -537,7 +537,7 @@
     },
     {
         "name": "Violet Shell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/VioletShell.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -553,7 +553,7 @@
     },
     {
         "name": "Tidelight",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Tidelight.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -561,7 +561,7 @@
     },
     {
         "name": "Normie Perfume",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/NormiePerfume.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -569,7 +569,7 @@
     },
     {
         "name": "Princesss Diary",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PrincesssDiary.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -577,7 +577,7 @@
     },
     {
         "name": "Sunstone",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Sunstone.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -585,7 +585,7 @@
     },
     {
         "name": "Sharp Arrowhead",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SharpArrowhead.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -593,7 +593,7 @@
     },
     {
         "name": "Greataxe Fragment",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/GreataxeFragment.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -601,7 +601,7 @@
     },
     {
         "name": "Turtle Shell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TurtleShell.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -609,7 +609,7 @@
     },
     {
         "name": "World Pine Tree Lumber",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/WorldPineTreeLumber.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -617,7 +617,7 @@
     },
     {
         "name": "Silk Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SilkCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -633,7 +633,7 @@
     },
     {
         "name": "Draconic Crest",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DraconicCrest.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -641,7 +641,7 @@
     },
     {
         "name": "Sharp Splinter",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SharpSplinter.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -673,7 +673,7 @@
     },
     {
         "name": "Viridian Claw",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ViridianClaw.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -681,7 +681,7 @@
     },
     {
         "name": "Venomball",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Venomball.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -689,7 +689,7 @@
     },
     {
         "name": "Locomotive Pendant",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LocomotivePendant.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -697,7 +697,7 @@
     },
     {
         "name": "Lovecadite",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Lovecadite.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -705,7 +705,7 @@
     },
     {
         "name": "Cotton Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CottonCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -713,7 +713,7 @@
     },
     {
         "name": "Ex Offense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ExOffenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -721,7 +721,7 @@
     },
     {
         "name": "Sharp Tooth",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SharpTooth.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -729,7 +729,7 @@
     },
     {
         "name": "Disposable Heater",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DisposableHeater.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -753,7 +753,7 @@
     },
     {
         "name": "Seaworm's Cotton",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Seaworm'sCotton.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -761,7 +761,7 @@
     },
     {
         "name": "Lucent Matter",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LucentMatter.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -769,7 +769,7 @@
     },
     {
         "name": "Rainbow Horn",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RainbowHorn.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -777,7 +777,7 @@
     },
     {
         "name": "Hole-filled Cube",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Hole-filledCube.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -785,7 +785,7 @@
     },
     {
         "name": "Dissolvent",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Dissolvent.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -793,7 +793,7 @@
     },
     {
         "name": "Analytic's Spectacles",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Analytic'sSpectacles.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -801,7 +801,7 @@
     },
     {
         "name": "Diving Suit",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DivingSuit.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -817,7 +817,7 @@
     },
     {
         "name": "Bunny Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BunnyEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -825,7 +825,7 @@
     },
     {
         "name": "Paralytic Slime",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ParalyticSlime.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -833,7 +833,7 @@
     },
     {
         "name": "Canola Bouquet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CanolaBouquet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -841,7 +841,7 @@
     },
     {
         "name": "Rugged Shrimp Leg",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RuggedShrimpLeg.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -849,7 +849,7 @@
     },
     {
         "name": "Huge Pinchers",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/HugePinchers.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -865,7 +865,7 @@
     },
     {
         "name": "Luminous Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LuminousCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -873,7 +873,7 @@
     },
     {
         "name": "Sturdy Tuft",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SturdyTuft.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -889,7 +889,7 @@
     },
     {
         "name": "Warlord's Bandage",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Warlord'sBandage.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -905,7 +905,7 @@
     },
     {
         "name": "Tingly Tentacle",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TinglyTentacle.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -913,7 +913,7 @@
     },
     {
         "name": "Crimson Eye",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CrimsonEye.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -921,7 +921,7 @@
     },
     {
         "name": "Princesss Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PrincesssCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -929,7 +929,7 @@
     },
     {
         "name": "Stiff Tentacle",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/StiffTentacle.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -937,7 +937,7 @@
     },
     {
         "name": "Floatation Sack",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FloatationSack.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -945,7 +945,7 @@
     },
     {
         "name": "Iceball",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Iceball.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -953,7 +953,7 @@
     },
     {
         "name": "Fallen Angel's Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FallenAngel'sCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -961,7 +961,7 @@
     },
     {
         "name": "Lady of the Lake's Locket",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LadyoftheLake'sLocket.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -977,7 +977,7 @@
     },
     {
         "name": "Holly Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/HollyEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -993,7 +993,7 @@
     },
     {
         "name": "Teleportation Paradigm",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TeleportationParadigm.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1001,7 +1001,7 @@
     },
     {
         "name": "Crabmet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Crabmet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1009,7 +1009,7 @@
     },
     {
         "name": "Static Necklace",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/StaticNecklace.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1017,7 +1017,7 @@
     },
     {
         "name": "Victory Medal",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/VictoryMedal.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1025,7 +1025,7 @@
     },
     {
         "name": "Platinum Idol",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PlatinumIdol.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1033,7 +1033,7 @@
     },
     {
         "name": "Dirtball",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Dirtball.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1041,7 +1041,7 @@
     },
     {
         "name": "Holy Circlet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/HolyCirclet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1049,7 +1049,7 @@
     },
     {
         "name": "Rusty Rod",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RustyRod.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1057,7 +1057,7 @@
     },
     {
         "name": "Poison Drop",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PoisonDrop.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1065,7 +1065,7 @@
     },
     {
         "name": "Platinum Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PlatinumCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1073,7 +1073,7 @@
     },
     {
         "name": "Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Ring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1097,7 +1097,7 @@
     },
     {
         "name": "Lailaps's Collar",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Lailaps'sCollar.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1105,7 +1105,7 @@
     },
     {
         "name": "Natural Sea Radish",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/NaturalSeaRadish.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1113,7 +1113,7 @@
     },
     {
         "name": "Twinkling Stardust",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TwinklingStardust.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "Memorial Locket",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MemorialLocket.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1129,7 +1129,7 @@
     },
     {
         "name": "Fluffy Coat",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FluffyCoat.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1137,7 +1137,7 @@
     },
     {
         "name": "Canola Wreath",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CanolaWreath.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1145,7 +1145,7 @@
     },
     {
         "name": "Prime Offense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PrimeOffenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1153,7 +1153,7 @@
     },
     {
         "name": "Quality Health Potion",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/QualityHealthPotion.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1161,7 +1161,7 @@
     },
     {
         "name": "Spikey Orb",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SpikeyOrb.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1169,7 +1169,7 @@
     },
     {
         "name": "Whale Harp",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/WhaleHarp.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1177,7 +1177,7 @@
     },
     {
         "name": "Bronze Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BronzeRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1185,7 +1185,7 @@
     },
     {
         "name": "Antidote",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Antidote.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1193,7 +1193,7 @@
     },
     {
         "name": "Enchanted Optical Lens",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/EnchantedOpticalLens.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1201,7 +1201,7 @@
     },
     {
         "name": "Sea Tamahagane",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SeaTamahagane.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1225,7 +1225,7 @@
     },
     {
         "name": "Prime Defense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PrimeDefenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1233,7 +1233,7 @@
     },
     {
         "name": "Solar Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SolarCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1241,7 +1241,7 @@
     },
     {
         "name": "Alexandrite Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AlexandriteRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1249,7 +1249,7 @@
     },
     {
         "name": "Deep Sea Diamond",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DeepSeaDiamond.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1257,7 +1257,7 @@
     },
     {
         "name": "Diamond Ring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DiamondRing.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1265,7 +1265,7 @@
     },
     {
         "name": "Magic Mirror Pendant",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MagicMirrorPendant.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1281,7 +1281,7 @@
     },
     {
         "name": "Fishing Harpoon",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FishingHarpoon.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1321,7 +1321,7 @@
     },
     {
         "name": "Umbra Rag",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/UmbraRag.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1329,7 +1329,7 @@
     },
     {
         "name": "Sturdy String",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SturdyString.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1337,7 +1337,7 @@
     },
     {
         "name": "Slick Armor",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SlickArmor.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1345,7 +1345,7 @@
     },
     {
         "name": "Bolteater's Garment",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Bolteater'sGarment.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1353,7 +1353,7 @@
     },
     {
         "name": "Shark Rib",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SharkRib.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1361,7 +1361,7 @@
     },
     {
         "name": "Deep Sea Cotton",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DeepSeaCotton.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1369,7 +1369,7 @@
     },
     {
         "name": "Phantom Jewel",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PhantomJewel.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1385,7 +1385,7 @@
     },
     {
         "name": "Chemical Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ChemicalCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1393,7 +1393,7 @@
     },
     {
         "name": "Toasty Tentacle",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ToastyTentacle.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1401,7 +1401,7 @@
     },
     {
         "name": "Ichimonji Scabbard",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/IchimonjiScabbard.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1409,7 +1409,7 @@
     },
     {
         "name": "\u2670Fallen Angel's Cloak\u2670",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/\u2670FallenAngel'sCloak\u2670.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1417,15 +1417,15 @@
     },
     {
         "name": "Fragmented Shell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FragmentedShell.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "FragmentedShell"
     },
     {
-        "name": "Fulgu rEssence",
-        "type": "toggle",
+        "name": "Fulgur Essence",
+        "type": "consumable",
         "img": "images/items/FulgurEssence.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1433,7 +1433,7 @@
     },
     {
         "name": "Ancient Silver Coin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AncientSilverCoin.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1441,7 +1441,7 @@
     },
     {
         "name": "Medallion of Numazu",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MedallionofNumazu.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1449,7 +1449,7 @@
     },
     {
         "name": "Ripple Shell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RippleShell.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1457,7 +1457,7 @@
     },
     {
         "name": "Tattered Cloth",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TatteredCloth.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1473,7 +1473,7 @@
     },
     {
         "name": "Lustrous Gold Coin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LustrousGoldCoin.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1481,7 +1481,7 @@
     },
     {
         "name": "Broken Knife",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BrokenKnife.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1489,7 +1489,7 @@
     },
     {
         "name": "Prismatic Organ",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PrismaticOrgan.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1497,7 +1497,7 @@
     },
     {
         "name": "Chainlink Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ChainlinkCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1505,7 +1505,7 @@
     },
     {
         "name": "Squishy Lens",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SquishyLens.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1513,7 +1513,7 @@
     },
     {
         "name": "Springy Shrub",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SpringyShrub.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1521,7 +1521,7 @@
     },
     {
         "name": "Tender Meat",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TenderMeat.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1529,7 +1529,7 @@
     },
     {
         "name": "Orichalcum",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Orichalcum.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1537,7 +1537,7 @@
     },
     {
         "name": "High-spec Lens",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/High-specLens.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1545,7 +1545,7 @@
     },
     {
         "name": "Warrior's Cloak",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Warrior'sCloak.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1553,7 +1553,7 @@
     },
     {
         "name": "Aiming Lens",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AimingLens.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1561,7 +1561,7 @@
     },
     {
         "name": "Frozen Meat",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FrozenMeat.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1569,7 +1569,7 @@
     },
     {
         "name": "Splendid Shield",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SplendidShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1577,7 +1577,7 @@
     },
     {
         "name": "Torn Collar",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/TornCollar.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1585,7 +1585,7 @@
     },
     {
         "name": "Fortune-teller's Veil",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Fortune-teller'sVeil.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1593,7 +1593,7 @@
     },
     {
         "name": "Serpent Bracelet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SerpentBracelet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1601,7 +1601,7 @@
     },
     {
         "name": "Seasilk",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Seasilk.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1609,7 +1609,7 @@
     },
     {
         "name": "Crimson Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/CrimsonCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1633,7 +1633,7 @@
     },
     {
         "name": "Ignis Crystal",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/IgnisCrystal.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1641,7 +1641,7 @@
     },
     {
         "name": "Antique Bronze Coin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AntiqueBronzeCoin.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1649,7 +1649,7 @@
     },
     {
         "name": "Explosive Material",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ExplosiveMaterial.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1657,7 +1657,7 @@
     },
     {
         "name": "Lunar Grindstone",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/LunarGrindstone.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1665,7 +1665,7 @@
     },
     {
         "name": "Frozen Drop",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FrozenDrop.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1673,7 +1673,7 @@
     },
     {
         "name": "Lady of the Lake's Bromide",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Ladyofthelake'sBromide.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1681,7 +1681,7 @@
     },
     {
         "name": "Exorcism Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ExorcismTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1697,7 +1697,7 @@
     },
     {
         "name": "Numazu Star",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/NumazuStar.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1713,7 +1713,7 @@
     },
     {
         "name": "Deep Sea Magicite",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DeepSeaMagicite.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1721,7 +1721,7 @@
     },
     {
         "name": "Golden Eye",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/GoldenEye.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1729,7 +1729,7 @@
     },
     {
         "name": "Defense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DefenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1737,7 +1737,7 @@
     },
     {
         "name": "Dusk Garment",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DuskGarment.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1745,7 +1745,7 @@
     },
     {
         "name": "Aegis Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AegisEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1753,7 +1753,7 @@
     },
     {
         "name": "Goddess's Bracelet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Goddess'sBracelet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1769,7 +1769,7 @@
     },
     {
         "name": "Poison Pouch",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PoisonPouch.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1777,7 +1777,7 @@
     },
     {
         "name": "Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Earring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1785,7 +1785,7 @@
     },
     {
         "name": "Seaborne Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/SeaborneCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1793,7 +1793,7 @@
     },
     {
         "name": "Bell Earring",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BellEarring.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1801,7 +1801,7 @@
     },
     {
         "name": "Remedy",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Remedy.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1817,7 +1817,7 @@
     },
     {
         "name": "Demonic Sculpture",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/DemonicSculpture.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1825,7 +1825,7 @@
     },
     {
         "name": "Shade's Gauntlet",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Shade'sGauntlet.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1833,7 +1833,7 @@
     },
     {
         "name": "Orange Scale",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/OrangeScale.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1841,7 +1841,7 @@
     },
     {
         "name": "Chainmail Cape",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/ChainmailCape.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1849,7 +1849,7 @@
     },
     {
         "name": "Chargestone",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Chargestone.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1857,7 +1857,7 @@
     },
     {
         "name": "Phony Eggshell",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/PhonyEggshell.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1873,7 +1873,7 @@
     },
     {
         "name": "Health Potion",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/HealthPotion.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1881,7 +1881,7 @@
     },
     {
         "name": "Orange Crabmeat",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/OrangeCrabmeat.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1889,7 +1889,7 @@
     },
     {
         "name": "Bright Red Cloth",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/BrightRedCloth.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1897,7 +1897,7 @@
     },
     {
         "name": "Fabled Conch",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FabledConch.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1905,7 +1905,7 @@
     },
     {
         "name": "Refined Darkness Potion",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/RefinedDarknessPotion.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1913,7 +1913,7 @@
     },
     {
         "name": "Fashion for Dummies",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FashionforDummies.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1921,7 +1921,7 @@
     },
     {
         "name": "Abyssal Jewel",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/AbyssalJewel.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1929,7 +1929,7 @@
     },
     {
         "name": "Flamme Essence",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/FlammeEssence.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1937,7 +1937,7 @@
     },
     {
         "name": "Musical Score",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/MusicalScore.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1953,7 +1953,7 @@
     },
     {
         "name": "Kinek Cube",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/KinekCube.png",
         "initial_active_state": false,
         "overlay_align": "right",
@@ -1961,7 +1961,7 @@
     },
     {
         "name": "Offense Talisman",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/OffenseTalisman.png",
         "initial_active_state": false,
         "overlay_align": "right",
