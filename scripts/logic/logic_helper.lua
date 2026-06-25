@@ -93,3 +93,10 @@ end
 -- the ANY() and ALL() functions
 --
 --
+function CAN_REACH(location)
+    local location_code = Tracker:FindObjectForCode(location)
+    if location_code == nil then
+        return ACCESS_NONE
+    end
+    return location_code.AccessibilityLevel
+end

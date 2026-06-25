@@ -42,21 +42,22 @@ function can_craft_recipe(recipe_id)
         id = ingredient.id
         if id ~= 0 then
             if rare_materials[id] then
-                can_craft = ALL(can_craft, HAS(ITEM_MAPPING[id][1][1], ingredient.amount))
-                if access == ACCESS_NONE then
-                    return ACCESS_NONE
-                end
+                can_craft = ALL(can_craft, ANY(HAS(ITEM_MAPPING[id][1][1], ingredient.amount), CAN_REACH("@Infernal Altar")))
             elseif id > 400 and id < 500 then -- Consumables
                 if id == 403 or id == 406 then -- Shinestew and Fallen Angel's Tear
                     can_craft = ALL(can_craft, HAS("Mari"))
                 else
                     can_craft = ALL(can_craft, true) -- no added rules
                 end
-            elseif id > 200 and id < 400 then
+            elseif id > 200 and id < 400 then -- Materials
                 if element_materials[id] ~= nil then
                     can_craft = ALL(can_craft, HAS(element_materials[id]))
                 end
                 -- TODO: implement normal material logic
+            elseif id > 800 and id < 1000 then -- Accessories
+                -- technically this only applies for craftsanity=true,recipesanity=false, should never come up
+                -- outside of it though
+                can_craft = ALL(can_craft, HAS(ITEM_MAPPING[id][1][1], ingredient.amount))
             else
                 -- unknown material
                 return ACCESS_NONE
